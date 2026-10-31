@@ -2,7 +2,7 @@
 
 ## 4.4.0
 
-- Changed how the skill works. When a text needs more than small edits, it now notes the claims and facts and writes the draft from the notes, so the original's structure does not carry over. A second reading follows, from a separate session or subagent when the agent can start one.
+- Changed how the skill works. When a text needs more than small edits, it now notes the claims and facts and writes the draft from the notes, so the original's structure does not carry over. A second reading follows, from a separate session or subagent when the agent can start one, ideally on a different model, since a model sees its own habits less well.
 - The skill reads a writing sample saved as `voz.md` or `voice.md` next to `SKILL.md`, The sample can be the user's own writing or a human writer's they like. The skill takes only its voice and keeps the text's own topic, phrases, form of address, and genre. In testing, a sample written to «tu» had turned a text written with «nós» into «tu». `.gitignore` keeps that file out of the repo.
 - Cut lines that the new process makes repeated, to stay under the word limit.
 
