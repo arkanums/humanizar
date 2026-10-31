@@ -176,6 +176,28 @@
     "notes": "Artigos e verbos em falta: o texto soa a telegrama ou a folheto."
   },
   {
+    "id": "pt-psicanalise",
+    "lang": "pt-PT",
+    "input": "A psicanálise, criada por Sigmund Freud no final do século XIX, ensina sobretudo que não mandamos totalmente em nós próprios. Por baixo do que pensamos e dizemos de forma consciente existe uma vida psíquica inconsciente. É feita de desejos, medos e memórias que foram afastados da consciência mas que continuam a agir sobre nós.\n\nEste inconsciente não se mostra diretamente. Revela-se de forma indireta: nos sonhos, nos lapsos de linguagem, nos esquecimentos que parecem casuais e nos sintomas que o corpo ou o comportamento exprimem sem que se perceba porquê. Para a psicanálise, nada disto acontece por acaso, e tudo tem um sentido que pode ser decifrado.\n\nOutra lição central é a importância da infância. As primeiras relações, sobretudo com o pai e a mãe ou com quem cuidou de nós, deixam marcas profundas. Moldam a forma como amamos, tememos e nos relacionamos com os outros ao longo da vida. Muitos conflitos da vida adulta repetem, sob novas formas, histórias antigas que ficaram por resolver.\n\nA psicanálise ensina também que o sofrimento psíquico pode ser tratado através da palavra. No consultório, o paciente é convidado a falar livremente e a dizer o que lhe vem à cabeça, sem se censurar. O analista escuta com atenção e ajuda a encontrar ligações entre o que é dito e o que fica escondido. Neste processo surge a transferência: o paciente projeta no analista sentimentos ligados a pessoas importantes do seu passado, e isso permite trabalhá-los.\n\nPor fim, a psicanálise não promete uma felicidade fácil. Convida cada pessoa a conhecer o próprio desejo e a assumir a responsabilidade pela sua história. Compreendermo-nos melhor não acaba com a dor, mas permite viver com mais liberdade.",
+    "must_not_contain": [
+      "outra lição central",
+      "por fim",
+      "desejos, medos e memórias",
+      "nos sonhos, nos lapsos",
+      "permite trabalhá-los",
+      "indireta:",
+      "transferência:",
+      "marcas profundas"
+    ],
+    "must_keep": [
+      "Freud",
+      "inconsciente",
+      "infância",
+      "transferência"
+    ],
+    "notes": "Texto de divulgação gerado por IA: catálogos, dois pontos, lista de lições à escala do texto e frases comprimidas."
+  },
+  {
     "id": "en-launch",
     "lang": "en",
     "input": "I'm thrilled to announce that shared drafts are finally here! It's not just a feature; it's a whole new way to collaborate. Comments stay anchored to the exact sentence they reference — even as the text evolves. Let that sink in.",

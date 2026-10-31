@@ -32,8 +32,9 @@ Estas regras substituem as regras inglesas do §8, §10 e §21.
 
 - **Aspas.** As aspas angulares (« ») são a norma em Portugal; as curvas (“ ”) também se aceitam. Mantém as que o escritor usa e nunca as troques por aspas retas. Aspas retas num texto português cuidado são normais em contextos técnicos e não contam como sinal.
 - **Travessão no diálogo.** Na ficção portuguesa, o travessão abre a fala das personagens. Mantém-no sempre.
-- **Travessão no meio da frase.** O português também usa o travessão para intercalar, mas a IA usa-o em quase todas as frases. Aplica o §8: troca-o por vírgulas, parênteses, dois pontos ou ponto final, exceto se a amostra do escritor o usar com frequência.
+- **Travessão no meio da frase.** O português também usa o travessão para intercalar, mas a IA usa-o em quase todas as frases. Aplica o §8: troca-o por vírgulas, parênteses ou ponto final, ou reescreve a frase, exceto se a amostra do escritor o usar com frequência. Não o troques por dois pontos.
 - **Hífen.** Segue o Acordo Ortográfico. Nunca tires o hífen dos pronomes ligados ao verbo (diz-se, deu-lhe, fá-lo-ia). A regra inglesa do §10 não se aplica.
+- **Dois pontos.** A IA usa os dois pontos para anunciar uma explicação ou uma lista («O inconsciente só se revela de forma indireta: nos sonhos...», «Surge a transferência: o paciente...»). A falar, ninguém faz isto. Começa outra frase, ou liga as ideias com «por exemplo», «porque» ou «ou seja». Mantém os dois pontos antes de uma citação, de uma lista que o leitor precisa de ver inteira e nas horas. Num texto em prosa, mais do que uns poucos dois pontos já é sinal.
 - **Maiúsculas nos títulos.** Em português, um título com maiúscula em cada palavra ("Estratégias Para O Crescimento") é um decalque do inglês. Usa maiúscula só na primeira palavra e nos nomes próprios.
 - **Números e moeda.** Vírgula decimal (3,5), espaço ou ponto nos milhares (12 000 ou 12.000) e o euro depois do número (10 € ou 10 euros). "€10" e "3.5" são formas inglesas.
 
@@ -123,13 +124,20 @@ Muitas IAs escrevem em português frases que se percebem palavra a palavra, mas 
 
 **Frases genéricas.** Servem para qualquer pessoa e qualquer texto: cada pessoa é única, todos passamos por momentos difíceis, a mudança é um processo, cada caso é um caso. Usa o caso concreto do original, ou corta a frase.
 
+**Enumerações e catálogos.** A IA enumera conceitos em vez de os explicar: «desejos, medos e memórias», «nos sonhos, nos lapsos de linguagem, nos esquecimentos e nos sintomas», «a forma como amamos, o que tememos e como nos relacionamos». Quem explica a alguém escolhe um ou dois exemplos e conta-os. Desenvolve o exemplo mais claro do original, ou reparte os itens por frases com verbo. Mantém a lista quando o leitor precisa de todos os itens, como numa receita ou numa lista de passos.
+
+> Antes: O inconsciente só se revela de forma indireta: nos sonhos, nos lapsos de linguagem, nos esquecimentos que parecem casuais e nos sintomas.
+> Depois: O inconsciente não se mostra às claras. Aparece, por exemplo, num sonho, ou quando trocamos uma palavra por outra sem querer. Os esquecimentos e os sintomas também podem ser sinais dele.
+
+O mesmo acontece à escala do texto inteiro. Parágrafos que começam por «Em primeiro lugar», «Outra ideia central», «Também» e «Por fim» são uma lista numerada por palavras. Liga os parágrafos pelo que cada um explica, como se a conversa fosse avançando.
+
 **Frases-legenda e listas disfarçadas.** Frases sem verbo que parecem a legenda de uma fotografia («Manhã de outono. Café. Silêncio.», «Uma viagem ao interior de si.»), e frases que são listas com vírgulas («Há o medo, há a culpa, há a vergonha.»). Faz uma frase com verbo e liga as ideias como se faz a falar: porque, e depois, mas, então. Ver também o §2, o §6 e o §19.
 
 **Frases que soam a anúncio.** Descubra, transforme a sua vida, dê o primeiro passo, o seu bem-estar merece, permita-se, uma experiência única. Diz o que a coisa é e o que faz (§16).
 
 ## 7. O que manter
 
-Muitas destas palavras são normais no português de Portugal quando têm sentido próprio. "Fundamental" num texto de física, "garantir" num contrato e "explorar" uma mina não são sinais. Também não são sinais o "pois", o "aliás", o "ora" e o "portanto" de quem fala assim, nem expressões regionais, nem o calão de uma época. Mantém o tratamento que o escritor escolheu (tu, você entre colegas que o usam, ou o senhor) e não o mudes sem razão. Num texto técnico, jurídico ou académico, o registo formal é o certo; a secção 6 vale sobretudo para conversas, histórias, textos pessoais e mensagens a clientes.
+Muitas destas palavras são normais no português de Portugal quando têm sentido próprio. "Fundamental" num texto de física, "garantir" num contrato e "explorar" uma mina não são sinais. Também não são sinais o "pois", o "aliás", o "ora" e o "portanto" de quem fala assim, nem expressões regionais, nem o calão de uma época. Mantém o tratamento que o escritor escolheu (tu, você entre colegas que o usam, ou o senhor) e não o mudes sem razão. Num texto técnico, jurídico ou académico, o registo formal é o certo. A secção 6 vale para conversas, histórias, textos pessoais, mensagens a clientes e textos de divulgação, ou seja, textos que explicam um assunto a quem não é especialista.
 
 **Guiões de hipnose, relaxamento e meditação guiada.** Estes textos usam de propósito a linguagem permissiva (podes, talvez, se quiseres, é possível que), a repetição, as perguntas ao ouvinte, as ligações que encadeiam a experiência (à medida que, e enquanto, quanto mais... mais), as partes da pessoa que agem sozinhas («uma parte de ti pode», «o teu corpo sabe») e o ritmo lento. Mantém tudo isso: é técnica, não sinal de IA. Também são técnica, e ficam, as formas da hipnose conversacional:
 

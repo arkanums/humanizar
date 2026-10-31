@@ -5,6 +5,7 @@
 - Hypnosis scripts and guided meditations now keep their repetition, permissive phrasing, and slow pace. `references/pt-pt.md` lists the forms to keep in Portuguese, including the conversational hypnosis patterns from the owner's own manuscript, and the tells to fix in them. Before, §7, §9, and §27 would flag these deliberate techniques.
 - Added the test case `pt-hipnose`.
 - `references/pt-pt.md` now catches dropped articles, «que», and prepositions («mascar pastilha», «reduzir ansiedade»), which make a sentence sound like a telegram or a leaflet. Added the test case `pt-palavras-em-falta`.
+- `references/pt-pt.md` now catches colons that announce an explanation or a list, and stops telling agents to swap dashes for colons. It also catches enumerations of concepts and texts whose paragraphs form a list («Outra ideia central...», «Por fim...»). Section 6 now covers texts that explain a subject to non-specialists. Added the test case `pt-psicanalise`.
 
 ## 4.2.0
 
