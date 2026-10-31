@@ -1,11 +1,13 @@
 # Changelog
 
-## 4.0.1
+## 4.1.0
 
-Fixes found by running the test cases.
+- Portuguese text is now always written in European Portuguese. A text written entirely in Brazilian Portuguese is converted, unless the user asks to keep Brazilian Portuguese.
+
+Fixes found by running the test cases:
 
 - §4 and `references/pt-pt.md` now catch announcement openers such as "We're thrilled to announce" and «temos o prazer de anunciar». The rewrite kept them before.
-- The Brazilian-forms test now uses a text that mixes the two varieties. A new case checks that a Brazilian text stays Brazilian.
+- The Brazilian-forms test now uses a text that mixes the two varieties. A new case checks that a text written entirely in Brazilian Portuguese is converted.
 - `scripts/check-eval.py` no longer treats a capital letter as a lost fact.
 
 ## 4.0.0

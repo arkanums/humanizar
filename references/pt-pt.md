@@ -2,11 +2,11 @@
 
 Este ficheiro completa o `SKILL.md` quando o texto está em português. Os padrões do `SKILL.md` continuam a valer; aqui estão as formas que tomam em português, as regras que mudam e as palavras que a IA usa muito mais do que as pessoas.
 
-Escreve em português europeu, segundo o Acordo Ortográfico de 1990, salvo se o texto ou o utilizador for brasileiro. Nesse caso mantém a variante brasileira e ignora a secção 1.
+Escreve sempre em português europeu, segundo o Acordo Ortográfico de 1990, mesmo quando o texto original está em português do Brasil. Só mantém a variante brasileira se o utilizador o pedir; nesse caso ignora a secção 1.
 
 ## 1. Brasileirismos num texto português
 
-Os modelos aprendem sobretudo com português do Brasil. Num texto que devia ser de Portugal, as formas brasileiras são um dos sinais mais claros de IA. Corrige-as sempre que o texto se dirige a leitores portugueses.
+Os modelos aprendem sobretudo com português do Brasil. Num texto que devia ser de Portugal, as formas brasileiras são um dos sinais mais claros de IA. Corrige-as sempre, e converte para português europeu um texto que esteja todo em português do Brasil.
 
 | Brasil | Portugal |
 |---|---|

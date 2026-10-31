@@ -8,7 +8,7 @@ description: |
   bold labels, or filler. Based on Wikipedia's "Signs of AI writing."
 license: MIT
 metadata:
-  version: "4.0.1"
+  version: "4.1.0"
 ---
 
 # Humanizar: remove AI writing patterns
@@ -49,7 +49,7 @@ Without a sample, take the voice from the kind of text. Blog posts, essays, opin
 
 The watch lists and examples are in English. In another language, apply each pattern to the equivalent construction, and answer in the language of the text. Follow that language's own punctuation, quotation marks, and hyphenation instead of the English rules in §8, §10, and §21. Do not translate the English word list in §12; each language has its own.
 
-For Portuguese, read `references/pt-pt.md` first and apply it with the patterns below. Keep the variety of the source: write European Portuguese unless the text or the user is Brazilian. A text that mixes the two varieties is itself a tell.
+For Portuguese, read `references/pt-pt.md` first and apply it with the patterns below. Always write European Portuguese, and convert Brazilian Portuguese to it, unless the user asks for Brazilian Portuguese. A text that mixes the two varieties is itself a tell.
 
 ### What to return
 

@@ -12,9 +12,9 @@ Humanizar reescreve texto que soa a IA para que soe a uma pessoa, sem mudar o qu
 
 - construções como «não se trata apenas de X, mas de Y» e frases finais como «E isso faz toda a diferença.»;
 - palavras que a IA usa muito e as pessoas quase não dizem, como *crucial*, *potenciar*, *panorama*, *jornada* e *vale a pena destacar*;
-- brasileirismos num texto para leitores portugueses (*você*, *tela*, *time*, *estou fazendo*).
+- brasileirismos (*você*, *tela*, *time*, *estou fazendo*). Um texto todo em português do Brasil passa para português de Portugal, salvo se pedir o contrário.
 
-Mantém as aspas « », os travessões de diálogo, o hífen dos pronomes (*disse-lhe*) e a variante brasileira quando o texto é brasileiro. A lista completa está em [`references/pt-pt.md`](references/pt-pt.md).
+Mantém as aspas « », os travessões de diálogo, e o hífen dos pronomes (*disse-lhe*). A lista completa está em [`references/pt-pt.md`](references/pt-pt.md).
 
 ```
 /humanizar

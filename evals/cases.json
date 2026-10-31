@@ -38,21 +38,22 @@
     "notes": "Texto em português de Portugal (tu, quiseres) com formas brasileiras misturadas."
   },
   {
-    "id": "pt-brasil-puro",
+    "id": "pt-brasil-converte",
     "lang": "pt-BR",
     "input": "Você vai perceber que o time está fazendo um ótimo trabalho. Se você quiser, basta acessar o arquivo na tela inicial do celular e checar o cadastro do usuário.",
     "must_not_contain": [
-      "ecrã",
-      "telemóvel",
-      "ficheiro",
-      "utilizador",
-      "a fazer"
-    ],
-    "must_keep": [
+      "você",
+      "time",
+      "está fazendo",
+      "acessar",
+      "arquivo",
+      "tela",
       "celular",
-      "tela"
+      "checar",
+      "usuário"
     ],
-    "notes": "Texto todo em português do Brasil: a reescrita mantém a variante brasileira."
+    "must_keep": [],
+    "notes": "Texto todo em português do Brasil: a reescrita passa-o para português de Portugal."
   },
   {
     "id": "pt-dialogo",
