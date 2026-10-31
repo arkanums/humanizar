@@ -1,0 +1,42 @@
+[
+  {
+    "id": "pt-anuncio",
+    "lang": "pt-PT",
+    "input": "Estamos entusiasmados por anunciar o novo plano de sessões online! 🚀 Não se trata apenas de uma mudança de formato; trata-se de uma nova forma de cuidar de si. Além disso, é importante salientar que cada sessão dura 50 minutos e custa €45. E isso faz toda a diferença.",
+    "must_not_contain": ["não se trata apenas", "além disso", "é importante salientar", "e isso faz toda a diferença", "🚀", "€45", "—"],
+    "must_keep": ["50 minutos", "45"],
+    "notes": "§1, §2, §4 e §12 em português; moeda na forma portuguesa."
+  },
+  {
+    "id": "pt-brasileirismos",
+    "lang": "pt-PT",
+    "input": "Você vai perceber que o time está fazendo um ótimo trabalho. Se você quiser, basta acessar o arquivo na tela inicial do celular e checar o cadastro do usuário.",
+    "must_not_contain": ["você", "time", "está fazendo", "arquivo", "tela", "celular", "checar", "usuário"],
+    "must_keep": [],
+    "notes": "Formas brasileiras num texto para leitores de Portugal."
+  },
+  {
+    "id": "pt-dialogo",
+    "lang": "pt-PT",
+    "input": "— Já chegaste? — perguntou a mãe, sem tirar os olhos do livro.\n— Há meia hora — respondeu o Tiago. — Não me ouviste entrar?\nEla disse «não» e voltou à leitura.",
+    "must_not_contain": ["\"não\""],
+    "must_keep": ["— Já chegaste?", "— Há meia hora", "«não»"],
+    "notes": "Ficção: os travessões de diálogo e as aspas angulares ficam. O texto quase não precisa de mudanças."
+  },
+  {
+    "id": "pt-saude-mental",
+    "lang": "pt-PT",
+    "input": "No panorama atual da saúde mental, a hipnoterapia desempenha um papel crucial, potenciando uma jornada transformadora para cada paciente. Vale a pena destacar que esta abordagem holística não é apenas uma técnica, é uma verdadeira ferramenta de autoconhecimento.",
+    "must_not_contain": ["panorama", "desempenha um papel", "jornada", "vale a pena destacar", "holística", "não é apenas", "verdadeira ferramenta"],
+    "must_keep": ["hipnoterapia"],
+    "notes": "Vocabulário de IA em grupo. A reescrita não pode inventar estudos, números nem clínicas."
+  },
+  {
+    "id": "en-launch",
+    "lang": "en",
+    "input": "I'm thrilled to announce that shared drafts are finally here! It's not just a feature; it's a whole new way to collaborate. Comments stay anchored to the exact sentence they reference — even as the text evolves. Let that sink in.",
+    "must_not_contain": ["thrilled", "not just a feature", "let that sink in", "—"],
+    "must_keep": ["shared drafts", "comments"],
+    "notes": "§1, §2, §8 and §22 in English."
+  }
+]

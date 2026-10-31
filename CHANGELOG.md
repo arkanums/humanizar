@@ -1,5 +1,16 @@
 # Changelog
 
+## 4.0.0
+
+First release as `arkanums/humanizar`, an independent version of `blader/humanizer`. The skill is now named `humanizar`, so it answers to `/humanizar`. No change to the 26 patterns.
+
+- Added European Portuguese in `references/pt-pt.md`: Brazilian forms to correct in text for Portuguese readers, Portuguese forms of the staging patterns, and lists of words that models use far more than people in Portugal do.
+- Added an "Other languages" section. Each language keeps its own punctuation, so §10 and §21 now apply to English only, §21 never straightens « » or “ ”, and §8 keeps dashes that open dialogue lines.
+- §8 now says that one dash is weak evidence, but the rewrite still removes dashes. The README label matches.
+- Pasted text now returns the final rewrite and a short list of changes. The draft appears only on request.
+- Added test cases in `evals/cases.json` and `scripts/check-eval.py`. The validator checks that the cases are well formed and that files named in `SKILL.md` exist.
+- Updated the manifests, README, issue templates, and LICENSE for the new owner, with credit to the original project.
+
 ## 3.1.0
 
 - Added pattern #26 and section F for replies that re-explain context the reader already has (#269). It acts on replies, not standalone writing. 26 patterns total.

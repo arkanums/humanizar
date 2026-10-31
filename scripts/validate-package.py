@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check Humanizer's package files without external dependencies."""
+"""Check Humanizar's package files without external dependencies."""
 
 from __future__ import annotations
 
@@ -74,8 +74,8 @@ if SKILL_PATH.is_symlink() or skill_files != {Path("SKILL.md")}:
     raise SystemExit("Keep one regular SKILL.md at the repo root")
 if PLUGIN.get("skills") != ["./"]:
     raise SystemExit("Point the Claude plugin skill loader at the repo root")
-if CURSOR_PLUGIN.get("name") != "humanizer":
-    raise SystemExit("Set the Cursor plugin name to humanizer")
+if CURSOR_PLUGIN.get("name") != "humanizar":
+    raise SystemExit("Set the Cursor plugin name to humanizar")
 if "skills" in CURSOR_PLUGIN:
     raise SystemExit("Omit skills from the Cursor plugin so it loads the root SKILL.md")
 
@@ -138,9 +138,28 @@ if missing_patterns:
         f"{pattern_count}: {missing_patterns}"
     )
 
+# SKILL.md sends agents to these files, so they must exist.
+for referenced_file in sorted(set(re.findall(r"`(references/[^`]+)`", SKILL))):
+    if not (ROOT / referenced_file).is_file():
+        raise SystemExit(f"SKILL.md points at a missing file: {referenced_file}")
+
+try:
+    EVAL_CASES = json.loads(read_package_file(ROOT / "evals" / "cases.json"))
+except json.JSONDecodeError as error:
+    raise SystemExit(f"Fix the JSON in evals/cases.json: {error}")
+eval_fields = {"id", "lang", "input", "must_not_contain", "must_keep", "notes"}
+eval_ids = [case.get("id") for case in EVAL_CASES]
+if len(set(eval_ids)) != len(eval_ids):
+    raise SystemExit(f"Give each test case in evals/cases.json its own id: {eval_ids}")
+for case in EVAL_CASES:
+    if set(case) != eval_fields:
+        raise SystemExit(
+            f"Give test case {case.get('id')!r} exactly these fields: {sorted(eval_fields)}"
+        )
+
 # Every word of SKILL.md is read on each use, so the budget is in words.
 skill_words = len(SKILL.split())
 if skill_words > 5500:
     raise SystemExit(f"Keep SKILL.md at 5,500 words or fewer; it has {skill_words}")
 
-print(f"Humanizer package v{skill_version} is valid")
+print(f"Humanizar package v{skill_version} is valid")

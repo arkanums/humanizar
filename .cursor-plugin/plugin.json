@@ -1,12 +1,20 @@
 {
-  "name": "humanizer",
+  "name": "humanizar",
   "description": "Rewrite AI-sounding text so it reads like the writer without changing what it says.",
-  "version": "3.1.0",
+  "version": "4.0.0",
   "author": {
-    "name": "blader"
+    "name": "arkanums"
   },
-  "homepage": "https://github.com/blader/humanizer",
-  "repository": "https://github.com/blader/humanizer",
+  "homepage": "https://github.com/arkanums/humanizar",
+  "repository": "https://github.com/arkanums/humanizar",
   "license": "MIT",
-  "keywords": ["writing", "editing", "humanize", "prose", "style"]
+  "keywords": [
+    "writing",
+    "editing",
+    "humanize",
+    "humanizar",
+    "portuguese",
+    "prose",
+    "style"
+  ]
 }
