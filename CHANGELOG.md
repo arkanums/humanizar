@@ -6,6 +6,7 @@
 - Added the test case `pt-hipnose`.
 - `references/pt-pt.md` now catches dropped articles, «que», and prepositions («mascar pastilha», «reduzir ansiedade»), which make a sentence sound like a telegram or a leaflet. Added the test case `pt-palavras-em-falta`.
 - `references/pt-pt.md` now catches colons that announce an explanation or a list, and stops telling agents to swap dashes for colons. It also catches enumerations of concepts and texts whose paragraphs form a list («Outra ideia central...», «Por fim...»). Section 6 now covers texts that explain a subject to non-specialists. Added the test case `pt-psicanalise`.
+- `references/pt-pt.md` now treats short «como X, Y ou Z» lists as catalogs, catches disciplines and institutions used as the subject of almost every sentence («a psicanálise pede»), and catches vague therapy verbs («trabalhar sentimentos», «processar», «lidar com»).
 
 ## 4.2.0
 

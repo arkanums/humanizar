@@ -107,6 +107,16 @@ Muitas IAs escrevem em português frases que se percebem palavra a palavra, mas 
 > Antes: A dúvida instalou-se e o silêncio tomou conta da sala.
 > Depois: Ele ficou na dúvida, e ninguém disse nada.
 
+O mesmo vale para disciplinas, instituições e métodos: «a psicanálise pede», «a terapia convida», «a empresa acredita», «o método permite». Uma vez é natural («A psicanálise ensina que...»). Quando a disciplina é o sujeito de quase todas as frases, o texto soa a folheto. Põe como sujeito quem faz de facto: o analista, Freud, o paciente, a equipa.
+
+> Antes: A psicanálise não promete uma felicidade fácil. Pede a cada pessoa que conheça o próprio desejo.
+> Depois: Um psicanalista não promete felicidade a ninguém. O que espera é que o paciente perceba o que deseja de facto.
+
+**Verbos vagos de consultório.** Trabalhar (sentimentos, emoções, questões), processar, lidar com, dar espaço a, gerir emoções, integrar, ressignificar, desbloquear. O leitor fica sem saber o que acontece de facto. Diz o que a pessoa faz, ou o que muda: fala sobre isso, repara, chora, deixa de evitar. Se o original não diz o que acontece, escreve uma frase mais simples em vez de inventar.
+
+> Antes: A transferência é o que permite trabalhar esses sentimentos.
+> Depois: Como esses sentimentos aparecem ali, na relação com o analista, podem ser falados no consultório.
+
 **Imagens literárias sem nada concreto.** Um eco do que fomos, a luz suave da manhã a abraçar a cidade, as cicatrizes invisíveis da alma. Mantém uma imagem só quando mostra algo que se vê, ouve ou toca. Se o original não tem esse pormenor, escreve a ideia simples em vez de o inventar.
 
 **Saltar do episódio para o conceito.** A frase passa do que aconteceu para uma lição abstrata. Para no episódio, ou diz por palavras simples o que a pessoa pensou.
@@ -124,7 +134,7 @@ Muitas IAs escrevem em português frases que se percebem palavra a palavra, mas 
 
 **Frases genéricas.** Servem para qualquer pessoa e qualquer texto: cada pessoa é única, todos passamos por momentos difíceis, a mudança é um processo, cada caso é um caso. Usa o caso concreto do original, ou corta a frase.
 
-**Enumerações e catálogos.** A IA enumera conceitos em vez de os explicar: «desejos, medos e memórias», «nos sonhos, nos lapsos de linguagem, nos esquecimentos e nos sintomas», «a forma como amamos, o que tememos e como nos relacionamos». Quem explica a alguém escolhe um ou dois exemplos e conta-os. Desenvolve o exemplo mais claro do original, ou reparte os itens por frases com verbo. Mantém a lista quando o leitor precisa de todos os itens, como numa receita ou numa lista de passos.
+**Enumerações e catálogos.** A IA enumera conceitos em vez de os explicar: «desejos, medos e memórias», «nos sonhos, nos lapsos de linguagem, nos esquecimentos e nos sintomas», «a forma como amamos, o que tememos e como nos relacionamos». Quem explica a alguém escolhe um ou dois exemplos e conta-os. Uma lista curta com «como» («como desejos, medos ou memórias») continua a ser catálogo: escolhe um exemplo e diz como aparece. Desenvolve o exemplo mais claro do original, ou reparte os itens por frases com verbo. Mantém a lista quando o leitor precisa de todos os itens, como numa receita ou numa lista de passos.
 
 > Antes: O inconsciente só se revela de forma indireta: nos sonhos, nos lapsos de linguagem, nos esquecimentos que parecem casuais e nos sintomas.
 > Depois: O inconsciente não se mostra às claras. Aparece, por exemplo, num sonho, ou quando trocamos uma palavra por outra sem querer. Os esquecimentos e os sintomas também podem ser sinais dele.
