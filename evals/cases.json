@@ -88,6 +88,38 @@
     "notes": "Vocabulário de IA em grupo. A reescrita não pode inventar estudos, números nem clínicas."
   },
   {
+    "id": "pt-parabola",
+    "lang": "pt-PT",
+    "input": "Perante a escassez de recursos, o camponês optou por uma estratégia de partilha com a comunidade. A dúvida instalou-se no seu coração, mas a generosidade falou mais alto. Naquele momento, compreendeu que a abundância é, no fundo, uma questão de perspetiva.",
+    "must_not_contain": [
+      "escassez de recursos",
+      "estratégia",
+      "a dúvida instalou-se",
+      "falou mais alto",
+      "perspetiva",
+      "no fundo"
+    ],
+    "must_keep": [
+      "camponês"
+    ],
+    "notes": "§27: registo analítico numa parábola, personificação abstrata e salto do episódio para o conceito."
+  },
+  {
+    "id": "pt-administrativo",
+    "lang": "pt-PT",
+    "input": "Venho por este meio informar que, relativamente à sua marcação, a mesma foi reagendada para o dia 12, no sentido de garantir uma melhor resposta às suas necessidades.",
+    "must_not_contain": [
+      "venho por este meio",
+      "relativamente",
+      "a mesma",
+      "no sentido de"
+    ],
+    "must_keep": [
+      "12"
+    ],
+    "notes": "§27: mensagem a um cliente em tom frio e administrativo."
+  },
+  {
     "id": "en-launch",
     "lang": "en",
     "input": "I'm thrilled to announce that shared drafts are finally here! It's not just a feature; it's a whole new way to collaborate. Comments stay anchored to the exact sentence they reference — even as the text evolves. Let that sink in.",

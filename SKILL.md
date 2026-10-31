@@ -8,7 +8,7 @@ description: |
   bold labels, or filler. Based on Wikipedia's "Signs of AI writing."
 license: MIT
 metadata:
-  version: "4.1.0"
+  version: "4.2.0"
 ---
 
 # Humanizar: remove AI writing patterns
@@ -26,7 +26,7 @@ A language model writes whatever is most likely to come next, so by default it m
 - **Leftovers.** Chat wrappers and drafting moves that were never meant for the reader.
 - **Wrong reader.** A reply re-explains background the other person already has, so the decision arrives last.
 
-Word habits change with every model release. The structural habits above persist, so they lead the list below.
+Word habits change with every model release. Structural habits persist, so they lead the list.
 
 Two rules follow from this. Every sentence you keep must add something the reader did not already have, from earlier in the text or from the conversation around it. A tell counts in proportion to how rarely a careful writer would make it on purpose. The patterns are numbered strongest first: §1 to §5 justify an edit on one sighting, and a pattern marked *weak alone* needs company from other tells in the same passage before you act.
 
@@ -65,7 +65,7 @@ These are the strongest and most frequent tells in current model prose. Act on o
 
 ### 1. Not X but Y
 
-**Watch for:** not X but Y; not just, not only, or not merely X, but Y; it's not X, it's Y; the reversed form X rather than Y; the same contrast split across sentences ("This does not mean X. It means Y."); a clipped negative tail ("..., no guessing"). The formula appears in every language; treat the equivalent construction the same way.
+**Watch for:** not X but Y; not just, not only, or not merely X, but Y; it's not X, it's Y; the reversed form X rather than Y; the same contrast split across sentences ("This does not mean X. It means Y."); a clipped negative tail ("..., no guessing").
 **Problem:** The negative half names something no one claimed, so the positive half sounds larger. It adds weight without adding a claim. State the point directly. Keep a contrast only when the negative half corrects a belief the reader actually holds, or when both halves carry information.
 **Before:**
 > It's not just about the beat riding under the vocals; it's part of the aggression and atmosphere. It's not merely a song, it's a statement.
@@ -142,8 +142,6 @@ These are the strongest and most frequent tells in current model prose. Act on o
 
 ## B. Rhythm by rule
 
-Shapes and punctuation applied everywhere, whether or not the meaning asks for them.
-
 ### 6. Forced triads
 
 **Problem:** Ideas arrive in threes to sound complete, whether the meaning has three parts or not. The tell can be one sentence ("innovation, inspiration, and insights"), three parallel examples, or three short facts followed by a lesson. Check that each item adds a distinct idea. Merge examples, develop the strongest one, or vary the structure when they do not. Keep three real items when the meaning needs three.
@@ -185,7 +183,7 @@ Shapes and punctuation applied everywhere, whether or not the meaning asks for t
 ### 10. Hyphenated pairs everywhere
 
 **Watch for:** high-quality, well-known, well-documented, long-term, real-time, client-facing after the noun they describe
-**Problem:** Compound modifiers keep their hyphen in every position. Keep the hyphen before a noun, as in `a high-quality report`, and drop it after the noun, as in `the report is high quality`. Words the dictionary always spells with a hyphen, such as third-party and cross-functional, keep it everywhere. This rule is for English only. *Weak alone.*
+**Problem:** Compound modifiers keep their hyphen in every position. Keep the hyphen before a noun, as in `a high-quality report`, and drop it after the noun, as in `the report is high quality`. Words the dictionary always spells with a hyphen, such as third-party and cross-functional, keep it everywhere. *Weak alone.*
 **Before:**
 > The report is high-quality, the process is well-documented, and the plan is long-term.
 **After:**
@@ -206,7 +204,7 @@ The fact underneath is usually sound. Keep it and remove the dressing.
 ### 12. Overused AI words
 
 **Watch for:** Actually, additionally, align with, bolstered, crucial, deep dive, delve, enduring, enhance, garner, gate/gated/gating (figurative; keep technical uses), highlight (verb), interplay, intricate/intricacies, key (adjective), landscape (abstract noun), meticulous/meticulously, pivotal, quietly, robust (figurative; keep technical uses), showcase, tapestry (abstract noun), testament, underscore (verb), valuable, vibrant
-**Problem:** Models use these words far more often than people do, especially in groups. The watch lists in §13 to §18 hold phrases that are tells because of how they are used; this list holds words that are tells wherever they appear. A formal word outside these lists is not a tell by itself.
+**Problem:** Models use these words far more often than people do, especially in groups. Unlike the phrases in §13 to §18, these words are tells wherever they appear. A formal word outside these lists is not a tell by itself.
 **Before:**
 > Additionally, a distinctive feature of Somali cuisine is the incorporation of camel meat. An enduring testament to Italian colonial influence is the widespread adoption of pasta in the local culinary landscape, showcasing how these dishes have integrated into the traditional diet.
 **After:**
@@ -387,6 +385,19 @@ A model writes for a reader who shares no context, because that fits the widest 
 >
 > I'd rather keep this PR account specific and open a separate ticket for the `MergeService` fix and the backfill. Let me know if that works.
 
+## G. Written for the page, not said to someone
+
+Read each sentence as if you were saying it to the reader across a table.
+
+### 27. Abstract and compressed sentences
+
+**Watch for:** a sentence the reader must stop to decode ("this refers to what?", "what actually happened?"); abstract nouns doing what people do ("Doubt settled in"); nouns in place of verbs; "this" or "that dynamic" with no clear referent; literary images that show nothing; an administrative or analytic tone in a story, a conversation, or a client message.
+**Problem:** The reader has to unpack what the writer packed. Say who did what, with ordinary verbs. Split a dense sentence. Keep an image only when it shows something concrete. Formal register stays in technical, legal, and academic text.
+**Before:**
+> The weight of expectation shaped every silence between them.
+**After:**
+> They expected a lot from each other and never said so.
+
 ## When not to act
 
 Each pattern describes a default choice, and a person can make any one of them on purpose. Leave a watched phrase alone inside a quotation, a title, a proper name, or a passage that discusses the phrase rather than uses it. Salutations and sign-offs on a letter or comment predate chatbots. Text written before November 30, 2022 is not AI-written. People who judge by feel do little better than chance, and human writing keeps absorbing AI habits, so several tells together are the safeguard.
@@ -401,4 +412,4 @@ Keep the details that carry the writer's voice unless they hurt the meaning:
 
 ## Source
 
-The patterns come from Wikipedia's ["Signs of AI writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), maintained by WikiProject AI Cleanup, and from reviews of AI-generated text on Wikipedia and elsewhere.
+The patterns come from Wikipedia's ["Signs of AI writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) and from reviews of AI-generated text.

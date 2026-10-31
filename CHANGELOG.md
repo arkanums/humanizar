@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.2.0
+
+- Added pattern #27 and section G for abstract and compressed sentences: unclear referents and actions, abstract nouns that act like people, literary images that show nothing, and an administrative tone in stories, conversations, and client messages. 27 patterns total.
+- Added section 6 to `references/pt-pt.md` with Portuguese examples for each of these, plus generic sentences, caption-like fragments, disguised lists, jumps from an episode to a lesson, and advertising phrases.
+- Cut repeated lines from `SKILL.md` to stay under the word limit. The "Other languages" section already covers them.
+- Added the test cases `pt-parabola` and `pt-administrativo`.
+
 ## 4.1.0
 
 - Portuguese text is now always written in European Portuguese. A text written entirely in Brazilian Portuguese is converted, unless the user asks to keep Brazilian Portuguese.

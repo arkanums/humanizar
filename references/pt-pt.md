@@ -87,6 +87,41 @@ Não acrescentes onde, quem ou quantos se o original não o diz.
 - **Restos do chat (§22):** Ótima pergunta! Claro! Com certeza! Espero que ajude! Se quiseres, posso... Queres que...? Tens toda a razão. Fico à disposição. Diz-me se precisares de mais alguma coisa.
 - **Limites do conhecimento (§23):** com base nas informações disponíveis, até à data do meu conhecimento, não há informação pública sobre, presumivelmente.
 
-## 6. O que manter
+## 6. Texto escrito que não soa a conversa (§27)
 
-Muitas destas palavras são normais no português de Portugal quando têm sentido próprio. "Fundamental" num texto de física, "garantir" num contrato e "explorar" uma mina não são sinais. Também não são sinais o "pois", o "aliás", o "ora" e o "portanto" de quem fala assim, nem expressões regionais, nem o calão de uma época. Mantém o tratamento que o escritor escolheu (tu, você entre colegas que o usam, ou o senhor) e não o mudes sem razão.
+Muitas IAs escrevem em português frases que se percebem palavra a palavra, mas que ninguém diria. Faz esta pergunta a cada frase: «Dirias isto assim a alguém, sentado à mesa?» Se não, reescreve como o dirias. Uma pessoa diz quem fez o quê, usa verbos concretos e palavras de todos os dias, e põe uma ideia em cada frase.
+
+**Frases comprimidas e referentes vagos.** O leitor tem de parar para adivinhar «isto refere-se a quê?» ou «o que é que aconteceu?». Os sinais são substantivos no lugar de verbos (a gestão das expectativas, a tomada de decisão, a realização do processo), «isto», «esse processo», «esta dinâmica» ou «tal» sem referente claro, e frases teóricas que juntam três ideias. Diz quem fez o quê, a quem, e o que aconteceu. Parte a frase em duas.
+
+> Antes: A gestão emocional do conflito permitiu uma reconfiguração da relação.
+> Depois: Conseguiram lidar com o que sentiam durante a discussão, e a relação mudou.
+
+**Personificação abstrata.** Uma ideia faz o que só as pessoas fazem: a dúvida instalou-se, o silêncio falou mais alto, o medo tomou conta, a memória pede tempo, o corpo sabe, a vida ensinou-lhe. O leitor tem de traduzir. Põe a pessoa como sujeito.
+
+> Antes: A dúvida instalou-se e o silêncio tomou conta da sala.
+> Depois: Ele ficou na dúvida, e ninguém disse nada.
+
+**Imagens literárias sem nada concreto.** Um eco do que fomos, a luz suave da manhã a abraçar a cidade, as cicatrizes invisíveis da alma. Mantém uma imagem só quando mostra algo que se vê, ouve ou toca. Se o original não tem esse pormenor, escreve a ideia simples em vez de o inventar.
+
+**Saltar do episódio para o conceito.** A frase passa do que aconteceu para uma lição abstrata. Para no episódio, ou diz por palavras simples o que a pessoa pensou.
+
+> Antes: Ela chorou. Naquele momento percebi que a vulnerabilidade é uma forma de força.
+> Depois: Ela chorou, e eu achei-a mais forte por isso.
+
+**Registo de relatório numa conversa ou numa história.** Palavras de serviço e de análise onde se esperava fala: efetuar, proceder a, relativamente a, no que concerne, a nível de, face a, aquando, no sentido de, de forma a, venho por este meio, a referida, e «o mesmo» ou «a mesma» no lugar de um nome («a marcação foi alterada e a mesma...»). Numa narrativa ou numa parábola, palavras analíticas como estratégia, recursos, dinâmica, processo, gestão, perspetiva e contexto soam a relatório. São construções gramaticalmente possíveis, mas ninguém fala assim.
+
+> Antes: Perante a escassez de recursos, o camponês optou por uma estratégia de partilha com a comunidade.
+> Depois: O camponês tinha pouco e, mesmo assim, repartiu-o com os vizinhos.
+
+> Antes: Venho por este meio informar que a sua sessão foi reagendada para o dia 12.
+> Depois: A sua sessão passou para o dia 12.
+
+**Frases genéricas.** Servem para qualquer pessoa e qualquer texto: cada pessoa é única, todos passamos por momentos difíceis, a mudança é um processo, cada caso é um caso. Usa o caso concreto do original, ou corta a frase.
+
+**Frases-legenda e listas disfarçadas.** Frases sem verbo que parecem a legenda de uma fotografia («Manhã de outono. Café. Silêncio.», «Uma viagem ao interior de si.»), e frases que são listas com vírgulas («Há o medo, há a culpa, há a vergonha.»). Faz uma frase com verbo e liga as ideias como se faz a falar: porque, e depois, mas, então. Ver também o §2, o §6 e o §19.
+
+**Frases que soam a anúncio.** Descubra, transforme a sua vida, dê o primeiro passo, o seu bem-estar merece, permita-se, uma experiência única. Diz o que a coisa é e o que faz (§16).
+
+## 7. O que manter
+
+Muitas destas palavras são normais no português de Portugal quando têm sentido próprio. "Fundamental" num texto de física, "garantir" num contrato e "explorar" uma mina não são sinais. Também não são sinais o "pois", o "aliás", o "ora" e o "portanto" de quem fala assim, nem expressões regionais, nem o calão de uma época. Mantém o tratamento que o escritor escolheu (tu, você entre colegas que o usam, ou o senhor) e não o mudes sem razão. Num texto técnico, jurídico ou académico, o registo formal é o certo; a secção 6 vale sobretudo para conversas, histórias, textos pessoais e mensagens a clientes.
