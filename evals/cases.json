@@ -139,6 +139,26 @@
     "notes": "Guião de hipnose: a linguagem permissiva fica; só saem os sinais de IA."
   },
   {
+    "id": "pt-hipnose-conversacional",
+    "lang": "pt-PT",
+    "input": "Quanto mais ouves a minha voz, mais fundo podes ir. Estás a ouvir estas palavras, estás a respirar, e podes ir mais fundo agora. Não sei se vais notar primeiro as mãos ou os ombros, e não precisas de saber como. Adicionalmente, é crucial destacar que este processo potencia o teu bem-estar de forma significativa.",
+    "must_not_contain": [
+      "adicionalmente",
+      "é crucial",
+      "destacar",
+      "potencia",
+      "de forma significativa"
+    ],
+    "must_keep": [
+      "Quanto mais ouves a minha voz",
+      "mais fundo",
+      "Não sei se",
+      "não precisas de saber como",
+      "agora"
+    ],
+    "notes": "Hipnose conversacional: falsa lógica, negação, «agora» e encadeamento ficam; só saem os sinais de IA."
+  },
+  {
     "id": "en-launch",
     "lang": "en",
     "input": "I'm thrilled to announce that shared drafts are finally here! It's not just a feature; it's a whole new way to collaborate. Comments stay anchored to the exact sentence they reference — even as the text evolves. Let that sink in.",

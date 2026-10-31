@@ -2,7 +2,7 @@
 
 ## 4.3.0
 
-- Hypnosis scripts and guided meditations now keep their repetition, permissive phrasing, and slow pace. `references/pt-pt.md` lists the forms to keep in Portuguese and the tells to fix in them. Before, §7, §9, and §27 would flag these deliberate techniques.
+- Hypnosis scripts and guided meditations now keep their repetition, permissive phrasing, and slow pace. `references/pt-pt.md` lists the forms to keep in Portuguese, including the conversational hypnosis patterns from the owner's own manuscript, and the tells to fix in them. Before, §7, §9, and §27 would flag these deliberate techniques.
 - Added the test case `pt-hipnose`.
 
 ## 4.2.0

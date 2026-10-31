@@ -126,4 +126,19 @@ Muitas IAs escrevem em português frases que se percebem palavra a palavra, mas 
 
 Muitas destas palavras são normais no português de Portugal quando têm sentido próprio. "Fundamental" num texto de física, "garantir" num contrato e "explorar" uma mina não são sinais. Também não são sinais o "pois", o "aliás", o "ora" e o "portanto" de quem fala assim, nem expressões regionais, nem o calão de uma época. Mantém o tratamento que o escritor escolheu (tu, você entre colegas que o usam, ou o senhor) e não o mudes sem razão. Num texto técnico, jurídico ou académico, o registo formal é o certo; a secção 6 vale sobretudo para conversas, histórias, textos pessoais e mensagens a clientes.
 
-**Guiões de hipnose, relaxamento e meditação guiada.** Estes textos usam de propósito a linguagem permissiva (podes, talvez, se quiseres, é possível que), a repetição, as perguntas ao ouvinte, as ligações que encadeiam a experiência (à medida que, e enquanto, quanto mais... mais), as partes da pessoa que agem sozinhas («uma parte de ti pode», «o teu corpo sabe») e o ritmo lento. Mantém tudo isso: é técnica, não sinal de IA. Corrige só o resto: brasileirismos, palavras de relatório, frases de anúncio, restos do chat e imagens que não mostram nada ao ouvinte. Num texto que não é um guião, não acrescentes estas formas: mudariam a intenção do escritor.
+**Guiões de hipnose, relaxamento e meditação guiada.** Estes textos usam de propósito a linguagem permissiva (podes, talvez, se quiseres, é possível que), a repetição, as perguntas ao ouvinte, as ligações que encadeiam a experiência (à medida que, e enquanto, quanto mais... mais), as partes da pessoa que agem sozinhas («uma parte de ti pode», «o teu corpo sabe») e o ritmo lento. Mantém tudo isso: é técnica, não sinal de IA. Também são técnica, e ficam, as formas da hipnose conversacional:
+
+| Função | Formas portuguesas |
+|---|---|
+| Acelerar a ação | agora, imediatamente, num instante, de repente, de uma vez, por completo |
+| Criar expectativa | daqui a pouco, aos poucos, ainda não, em breve, mais cedo ou mais tarde, devagar, podes começar a |
+| Pressupor | conscientemente... enquanto inconscientemente; podes continuar a; pergunto-me se já reparaste; como vais saber que; vais fazê-lo agora ou mais tarde? |
+| Dirigir a atenção | repara, nota, dá por ti a, já alguma vez, sei que estás a perguntar-te, lembra-te |
+| Imaginar | imagina, supõe, faz de conta, é como se, como seria se, o que acontece quando |
+| Suavizar | permite-te, talvez, gostavas de, podias, não tenho a certeza de como |
+| Ligar | à medida que, quando, cada vez que, assim que, ainda bem que, e, tal como |
+| Necessidade | quero que, tens de, deves, preciso de te dizer, sei que queres |
+| Negação | não precisas de, não sei se consegues, não tens de, podias, não podias?, não é preciso... até que |
+| Falsa lógica | o que significa que; se..., então; porque..., por isso; três factos seguidos de uma sugestão; até ao ponto em que; quanto mais..., mais |
+
+Num guião, a repetição destas formas, o «agora» no fim da frase e as frases longas encadeadas com «e» também são de propósito. Corrige só o resto: brasileirismos, palavras de relatório, frases de anúncio, restos do chat e imagens que não mostram nada ao ouvinte. Num texto que não é um guião, não acrescentes estas formas: mudariam a intenção do escritor.
