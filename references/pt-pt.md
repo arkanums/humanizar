@@ -96,6 +96,11 @@ Muitas IAs escrevem em português frases que se percebem palavra a palavra, mas 
 > Antes: A gestão emocional do conflito permitiu uma reconfiguração da relação.
 > Depois: Conseguiram lidar com o que sentiam durante a discussão, e a relação mudou.
 
+**Palavras pequenas que faltam.** A IA corta artigos, «que», preposições e verbos, e a frase fica a soar a telegrama ou a folheto: mascar pastilha, reduzir ansiedade, melhorar qualidade do sono, marcação através de formulário, ideal para quem procura. Lê a frase em voz alta e repõe as palavras que dirias: mascar uma pastilha, reduzir a ansiedade, dormir melhor, pode marcar no formulário. As expressões feitas sem artigo continuam certas (beber café, ter fome, andar de carro, pedir ajuda).
+
+> Antes: Sessão com duração de 50 minutos. Ideal para quem procura reduzir ansiedade.
+> Depois: Cada sessão dura 50 minutos. É indicada para quem quer reduzir a ansiedade.
+
 **Personificação abstrata.** Uma ideia faz o que só as pessoas fazem: a dúvida instalou-se, o silêncio falou mais alto, o medo tomou conta, a memória pede tempo, o corpo sabe, a vida ensinou-lhe. O leitor tem de traduzir. Põe a pessoa como sujeito.
 
 > Antes: A dúvida instalou-se e o silêncio tomou conta da sala.

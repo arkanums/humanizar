@@ -159,6 +159,23 @@
     "notes": "Hipnose conversacional: falsa lógica, negação, «agora» e encadeamento ficam; só saem os sinais de IA."
   },
   {
+    "id": "pt-palavras-em-falta",
+    "lang": "pt-PT",
+    "input": "Sessão com duração de 50 minutos. Ideal para quem procura reduzir ansiedade e melhorar qualidade do sono. Marcação através de formulário no site.",
+    "must_not_contain": [
+      "sessão com duração",
+      "ideal para",
+      "reduzir ansiedade",
+      "melhorar qualidade",
+      "marcação através de formulário"
+    ],
+    "must_keep": [
+      "50 minutos",
+      "site"
+    ],
+    "notes": "Artigos e verbos em falta: o texto soa a telegrama ou a folheto."
+  },
+  {
     "id": "en-launch",
     "lang": "en",
     "input": "I'm thrilled to announce that shared drafts are finally here! It's not just a feature; it's a whole new way to collaborate. Comments stay anchored to the exact sentence they reference — even as the text evolves. Let that sink in.",
