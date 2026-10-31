@@ -1,5 +1,13 @@
 # Changelog
 
+## 4.0.1
+
+Fixes found by running the test cases.
+
+- §4 and `references/pt-pt.md` now catch announcement openers such as "We're thrilled to announce" and «temos o prazer de anunciar». The rewrite kept them before.
+- The Brazilian-forms test now uses a text that mixes the two varieties. A new case checks that a Brazilian text stays Brazilian.
+- `scripts/check-eval.py` no longer treats a capital letter as a lost fact.
+
 ## 4.0.0
 
 First release as `arkanums/humanizar`, an independent version of `blader/humanizer`. The skill is now named `humanizar`, so it answers to `/humanizar`. No change to the 26 patterns.

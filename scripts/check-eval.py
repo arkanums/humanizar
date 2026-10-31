@@ -49,7 +49,9 @@ def main(arguments: list[str]) -> int:
         if contains(rewrite, phrase)
     ]
     problems += [
-        f"Lost: {phrase!r}" for phrase in case["must_keep"] if phrase not in rewrite
+        f"Lost: {phrase!r}"
+        for phrase in case["must_keep"]
+        if not contains(rewrite, phrase)
     ]
 
     for problem in problems:

@@ -44,7 +44,7 @@ São os mesmos padrões do §1 ao §5 do `SKILL.md`, na forma portuguesa. Uma oc
 - **Não é X, é Y (§1):** não se trata apenas de X, mas de Y; não é só X, é Y; mais do que X, é Y; longe de ser X, é Y; isto não significa X. Significa Y.
 - **Frase final de efeito (§2):** E isso faz toda a diferença. E isso muda tudo. É simples assim. Ponto final. Pensa nisto. Uma lição de paciência. Fica a reflexão.
 - **Falsa profundidade (§3):** no fundo, a verdade é que, o que realmente importa, no cerne da questão, a grande questão é, em última análise, X é a linguagem de Y.
-- **Introdução encenada (§4):** vamos lá, vamos mergulhar em, vamos explorar, vamos por partes, aqui fica o que precisas de saber, sejamos honestos, sinceramente?, a verdade?, spoiler:, atenção:
+- **Introdução encenada (§4):** estamos entusiasmados por anunciar, temos o prazer de anunciar, é com enorme satisfação que, vamos lá, vamos mergulhar em, vamos explorar, vamos por partes, aqui fica o que precisas de saber, sejamos honestos, sinceramente?, a verdade?, spoiler:, atenção:
 - **Discutir com ninguém (§5):** não estou a dizer que, atenção, isto não significa que, não me interpretem mal, há quem diga que... mas, seria tentador.
 
 **Antes:**
