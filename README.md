@@ -1,11 +1,26 @@
-# Humanizer 
+# Humanizar
 
-sponsored by [cfo.ai](https://cfo.ai)
+[![GitHub stars](https://img.shields.io/github/stars/arkanums/humanizar?style=flat)](https://github.com/arkanums/humanizar/stargazers)
 
-[![GitHub stars](https://img.shields.io/github/stars/blader/humanizer?style=flat)](https://github.com/blader/humanizer/stargazers) [![skills.sh installs](https://skills.sh/b/blader/humanizer)](https://skills.sh/blader/humanizer) 
+Humanizar makes AI-written text sound like a person wrote it, without changing what it says. It works in English and in European Portuguese. It is built on Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), the guide Wikipedia editors use to catch AI-generated text, and it works in Claude Code, Codex, and any other agent that supports skills.
 
+Humanizar is an independent version of [blader/humanizer](https://github.com/blader/humanizer) by Siqi Chen, under the MIT license.
 
-Humanizer makes AI-written text sound like a person wrote it, without changing what it says. It is built on Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), the guide Wikipedia editors use to catch AI-generated text, and it works in Claude Code, Codex, and any other agent that supports skills.
+## Em português
+
+Humanizar reescreve texto que soa a IA para que soe a uma pessoa, sem mudar o que diz. Em português, escreve na norma de Portugal e trata como sinais de IA:
+
+- construções como «não se trata apenas de X, mas de Y» e frases finais como «E isso faz toda a diferença.»;
+- palavras que a IA usa muito e as pessoas quase não dizem, como *crucial*, *potenciar*, *panorama*, *jornada* e *vale a pena destacar*;
+- brasileirismos num texto para leitores portugueses (*você*, *tela*, *time*, *estou fazendo*).
+
+Mantém as aspas « », os travessões de diálogo, o hífen dos pronomes (*disse-lhe*) e a variante brasileira quando o texto é brasileiro. A lista completa está em [`references/pt-pt.md`](references/pt-pt.md).
+
+```
+/humanizar
+
+[cole aqui o texto]
+```
 
 **Before:**
 > I'm thrilled to announce that shared drafts are finally here! 🚀 For months, our own team was drowning in files named final_v7.docx — and we knew there had to be a better way. Now two people can edit the same doc at once, with every change appearing live for both of them. It's not just a feature; it's a whole new way to collaborate. Comments stay anchored to the exact sentence they reference, even as the text around them evolves. And the best part? It's available today on every plan, completely free. Let that sink in.
@@ -13,13 +28,13 @@ Humanizer makes AI-written text sound like a person wrote it, without changing w
 **After:**
 > Shared drafts are out today. For months our own team passed around files named final_v7.docx, so we built a way for two people to edit the same doc at once, with each person's changes showing up live for the other. Comments stay pinned to the sentence they're about, even when the text around them changes. It's free on every plan.
 
-In a blind test, judges preferred Humanizer's rewrite over the original AI text 16 times out of 16 ([#229](https://github.com/blader/humanizer/issues/229)).
+In a blind test of the original project, judges preferred its rewrite over the original AI text 16 times out of 16 ([blader/humanizer#229](https://github.com/blader/humanizer/issues/229)).
 
-Humanizer edits for human readers. Getting past AI detectors is not a goal, and detectors still flag most of its output.
+Humanizar edits for human readers. Getting past AI detectors is not a goal, and detectors still flag most of its output.
 
 ## The five strongest tells
 
-These are the most common signs of AI writing, and Humanizer rewrites any of them on sight:
+These are the most common signs of AI writing, and Humanizar rewrites any of them on sight:
 
 1. **Not X but Y:** "It's not just a feature, it's a shift."
 2. **One-line closers:** "Let that sink in."
@@ -27,25 +42,25 @@ These are the most common signs of AI writing, and Humanizer rewrites any of the
 4. **A staged run-up:** "Here's the thing." "Honestly?"
 5. **Arguing with no one:** "I'm not saying X, but..."
 
-Humanizer checks for [26 patterns](#the-26-patterns) in all.
+Humanizar checks for [26 patterns](#the-26-patterns) in all.
 
 ## Installation
 
-Once installed, the skill answers to `/humanizer`.
+Once installed, the skill answers to `/humanizar`.
 
 ### Claude Code
 
 ```text
-/plugin marketplace add blader/humanizer
-/plugin install humanizer@humanizer
+/plugin marketplace add arkanums/humanizar
+/plugin install humanizar@humanizar
 ```
 
-The plugin answers to `/humanizer:humanizer`. It needs Claude Code 2.1.142 or newer; on older versions, use `npx skills add blader/humanizer --global --agent claude-code`.
+The plugin answers to `/humanizar:humanizar`. It needs Claude Code 2.1.142 or newer; on older versions, use `npx skills add arkanums/humanizar --global --agent claude-code`.
 
 ### Codex
 
 ```bash
-npx skills add blader/humanizer --global --agent codex
+npx skills add arkanums/humanizar --global --agent codex
 ```
 
 ### Claude.ai and Claude Desktop
@@ -55,17 +70,17 @@ Download this repository as a ZIP (**Code → Download ZIP**) and upload it as a
 ### Other agents
 
 ```bash
-npx skills add blader/humanizer --global --agent '*'
+npx skills add arkanums/humanizar --global --agent '*'
 ```
 
-This installs Humanizer for every agent the Skills CLI supports, including Gemini CLI, GitHub Copilot, and Windsurf. Leave off `--global` in any command above to install it only in the current project. For an agent the Skills CLI does not know, copy `SKILL.md` into its skill folder.
+This installs Humanizar for every agent the Skills CLI supports, including Gemini CLI, GitHub Copilot, and Windsurf. Leave off `--global` in any command above to install it only in the current project. For an agent the Skills CLI does not know, copy `SKILL.md` and the `references` folder into its skill folder.
 
 ## Usage
 
 Call the skill directly:
 
 ```
-/humanizer
+/humanizar
 
 [paste your text here]
 ```
@@ -76,7 +91,7 @@ Or ask in plain language:
 Please humanize this text: [your text]
 ```
 
-To rewrite a file, give Humanizer its path:
+To rewrite a file, give Humanizar its path:
 
 ```
 Humanize the prose in docs/launch-post.md
@@ -87,7 +102,7 @@ Humanize the prose in docs/launch-post.md
 If you want the rewrite to sound more like you, include a sample:
 
 ```
-/humanizer
+/humanizar
 
 Here's a sample of my writing for voice matching:
 [paste 2-3 paragraphs of your own writing]
@@ -96,18 +111,18 @@ Now humanize this text:
 [paste AI text to humanize]
 ```
 
-Humanizer follows the sample's rhythm, word choice, punctuation, and deliberate quirks, including dashes if you use them.
+Humanizar follows the sample's rhythm, word choice, punctuation, and deliberate quirks, including dashes if you use them.
 
 ## How it works
 
-A language model writes whatever is most likely to come next, so by default it makes the choice that fits the widest range of readers and subjects. A person chooses for one reader and one subject. Every tell Humanizer looks for is a form of that default choice: a sentence that signals importance instead of adding a fact, rhythm or formatting applied by rule, an ordinary fact dressed as a pivotal one, text left over from the chat, or a reply that re-explains what the reader already knows.
+A language model writes whatever is most likely to come next, so by default it makes the choice that fits the widest range of readers and subjects. A person chooses for one reader and one subject. Every tell Humanizar looks for is a form of that default choice: a sentence that signals importance instead of adding a fact, rhythm or formatting applied by rule, an ordinary fact dressed as a pivotal one, text left over from the chat, or a reply that re-explains what the reader already knows.
 
 > "LLMs use statistical algorithms to guess what should come next. The result tends toward the most statistically likely result that applies to the widest variety of cases."
 > Wikipedia, ["Signs of AI writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)
 
-Humanizer marks every tell it finds, strongest first. It drafts a rewrite without treating the original structure as fixed, checks the draft against the patterns and the original claims, and then writes the final version. It does not make things up. A name, number, date, quote, citation, or other factual detail must come from the source or the writer, and if a sentence needs a detail that is missing, Humanizer asks instead of inventing one.
+Humanizar marks every tell it finds, strongest first. It drafts a rewrite without treating the original structure as fixed, checks the draft against the patterns and the original claims, and then writes the final version. It does not make things up. A name, number, date, quote, citation, or other factual detail must come from the source or the writer, and if a sentence needs a detail that is missing, Humanizar asks instead of inventing one.
 
-When you paste text, Humanizer shows its work: the first rewrite, a short critique of anything that still sounds artificial, and the final version. Point it at a file and it changes only the prose, leaving code, data, frontmatter, and link targets alone. Personal writing keeps the writer's opinions and quirks. Technical and reference prose stays neutral and plain.
+When you paste text, Humanizar returns the final version and a short list of the main changes. Ask for the draft if you want to see its work. Point it at a file and it changes only the prose, leaving code, data, frontmatter, and link targets alone. Personal writing keeps the writer's opinions and quirks. Technical and reference prose stays neutral and plain.
 
 ## The 26 patterns
 
@@ -129,7 +144,7 @@ The patterns are numbered by strength and frequency. The first five justify an e
 |---|---------|--------|-------|
 | 6 | **Forced triads** | "innovation, inspiration, and insights"; three examples plus a lesson | Use the number of items the meaning needs |
 | 7 | **Repeated sentence openings** | "She noted... She noted... She filed..." | Merge the sentences or change the subject |
-| 8 | **Dashes as the universal connector** (*weak alone*) | "institutions—not the people—yet this continues—" | Use periods, commas, colons, or parentheses; match a sample that uses dashes |
+| 8 | **Dashes as the universal connector** (*weak alone* as evidence) | "institutions—not the people—yet this continues—" | Use periods, commas, colons, or parentheses; match a sample that uses dashes; keep dialogue dashes |
 | 9 | **Stacked qualifiers** (*weak alone*) | "could potentially possibly be argued" | Keep only qualifiers the source supports |
 | 10 | **Hyphenated pairs everywhere** (*weak alone*) | "the report is high-quality" | Keep the hyphen before the noun or where the dictionary has one |
 | 11 | **Passive voice and missing subjects** (*weak alone*) | "No configuration file needed" | Name the actor when that helps |
@@ -152,7 +167,7 @@ The patterns are numbered by strength and frequency. The first five justify an e
 |---|---------|--------|-------|
 | 19 | **Bold as decoration** | "**OKRs**, **KPIs**"; "**Performance:** Performance improved" | Remove the bold; turn a labeled list into prose |
 | 20 | **Decorative headings** | "Strategic Negotiations And Partnerships", "🚀 Launch Phase:", "The decision, on one screen" | Sentence case; remove emojis and arrows; name what the section holds |
-| 21 | **Curly quotation marks** (*weak alone*) | `said “the project”` | `said "the project"` |
+| 21 | **Curly quotation marks** (*weak alone*) | `said “the project”` | `said "the project"` in English; other languages keep their own marks |
 
 ### E. Leftovers from the chat and the draft
 
@@ -193,10 +208,15 @@ The patterns are numbered by strength and frequency. The first five justify an e
 >
 > I'd go back, in spring next time, and with better shoes.
 
+## Testing changes
+
+`evals/cases.json` holds sample AI texts in Portuguese and English, with the phrases a rewrite must remove and the facts it must keep. See [evals/README.md](evals/README.md).
+
 ## Sources
 
 - [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) is the source for the pattern list.
 - [WikiProject AI Cleanup](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup) maintains the page.
+- [blader/humanizer](https://github.com/blader/humanizer) is the project Humanizar started from.
 
 ## Version history
 
@@ -206,4 +226,4 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 MIT
 
-If Humanizer helps you, a star helps other people find it.
+If Humanizar helps you, a star helps other people find it.

@@ -17,7 +17,7 @@ body:
     id: input
     attributes:
       label: Input text
-      description: The text you gave Humanizer. Remove anything private.
+      description: The text you gave Humanizar. Remove anything private.
     validations:
       required: true
   - type: textarea
@@ -25,14 +25,14 @@ body:
     attributes:
       label: How you called it
       description: The agent and model you used, and your exact prompt.
-      placeholder: "Claude Code, Opus 5.5: /humanizer then pasted the text"
+      placeholder: "Claude Code, Opus 5.5: /humanizar then pasted the text"
     validations:
       required: true
   - type: textarea
     id: output
     attributes:
       label: Output
-      description: What Humanizer returned.
+      description: What Humanizar returned.
     validations:
       required: true
   - type: textarea

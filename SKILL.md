@@ -1,16 +1,17 @@
 ---
-name: humanizer
+name: humanizar
 description: |
   Rewrite AI-sounding text so it reads like the writer without changing what it says.
-  Use when editing or reviewing prose for AI tells: not-X-but-Y contrasts, one-line
-  closers, staged openers, forced triads, dashes everywhere, inflated claims, sales
-  language, stock AI words, bold labels, or filler. Based on Wikipedia's "Signs of AI writing."
+  Use when editing or reviewing prose for AI tells, in English or European Portuguese
+  (humanizar, "soa a IA"): not-X-but-Y contrasts, one-line closers, staged openers,
+  forced triads, dashes everywhere, inflated claims, sales language, stock AI words,
+  bold labels, or filler. Based on Wikipedia's "Signs of AI writing."
 license: MIT
 metadata:
-  version: "3.1.0"
+  version: "4.0.0"
 ---
 
-# Humanizer: remove AI writing patterns
+# Humanizar: remove AI writing patterns
 
 Rewrite AI-sounding text so it reads like the writer, not a chatbot. Keep what it says. Do not make anything up.
 
@@ -44,9 +45,15 @@ If the user gives a writing sample, read it first and match its sentence length,
 
 Without a sample, take the voice from the kind of text. Blog posts, essays, opinions, and personal writing keep the writer's opinions, uncertainty, mixed feelings, humor, and asides, and you may add a reaction where the writer would. Reference, technical, legal, and factual text stays neutral and plain. Removing tells is half the job; the result must still sound like a person.
 
+### Other languages
+
+The watch lists and examples are in English. In another language, apply each pattern to the equivalent construction, and answer in the language of the text. Follow that language's own punctuation, quotation marks, and hyphenation instead of the English rules in §8, §10, and §21. Do not translate the English word list in §12; each language has its own.
+
+For Portuguese, read `references/pt-pt.md` first and apply it with the patterns below. Keep the variety of the source: write European Portuguese unless the text or the user is Brazilian. A text that mixes the two varieties is itself a tell.
+
 ### What to return
 
-**Pasted text (default).** Return the draft, a short list of remaining patterns, and the final rewrite.
+**Pasted text (default).** Return the final rewrite, then a short list of the main changes. Show the draft and the list of remaining patterns only when the user asks for them.
 
 **File mode.** When the user names a file, run the full process but write only the final text to the file. Change prose only. Keep code blocks, inline code, commands, paths, YAML metadata, data, and link targets unchanged. Then give the user a short summary.
 
@@ -159,8 +166,8 @@ Shapes and punctuation applied everywhere, whether or not the meaning asks for t
 
 ### 8. Dashes as the universal connector
 
-**Rule:** The final rewrite must not contain em dashes (—) or en dashes (–) unless the writer's sample uses them; then match the sample's rate. Replace each dash with a period, comma, colon, or parentheses, or rewrite the sentence. This includes spaced dashes and double hyphens (` -- `) used as dashes. Leave dashes and hyphens inside code blocks, inline code, commands, paths, and URLs alone.
-**Problem:** A dash lets the writer skip choosing how two clauses relate, so a model reaches for it everywhere. Many editors and journalists also use dashes, so one dash is *weak alone*; a text full of them is not.
+**Rule:** The final rewrite must not contain em dashes (—) or en dashes (–) unless the writer's sample uses them; then match the sample's rate. Keep dashes that open dialogue lines, as in Portuguese fiction. Replace each dash with a period, comma, colon, or parentheses, or rewrite the sentence. This includes spaced dashes and double hyphens (` -- `) used as dashes. Leave dashes and hyphens inside code blocks, inline code, commands, paths, and URLs alone.
+**Problem:** A dash lets the writer skip choosing how two clauses relate, so a model reaches for it everywhere. Many editors and journalists also use dashes, so as evidence that a text is AI-written, one dash is *weak alone*; a text full of them is not. The rewrite rule above applies either way.
 **Before:**
 > The new policy — announced without warning — affects thousands of workers. The changes -- long overdue according to critics -- will take effect immediately.
 **After:**
@@ -178,7 +185,7 @@ Shapes and punctuation applied everywhere, whether or not the meaning asks for t
 ### 10. Hyphenated pairs everywhere
 
 **Watch for:** high-quality, well-known, well-documented, long-term, real-time, client-facing after the noun they describe
-**Problem:** Compound modifiers keep their hyphen in every position. Keep the hyphen before a noun, as in `a high-quality report`, and drop it after the noun, as in `the report is high quality`. Words the dictionary always spells with a hyphen, such as third-party and cross-functional, keep it everywhere. *Weak alone.*
+**Problem:** Compound modifiers keep their hyphen in every position. Keep the hyphen before a noun, as in `a high-quality report`, and drop it after the noun, as in `the report is high quality`. Words the dictionary always spells with a hyphen, such as third-party and cross-functional, keep it everywhere. This rule is for English only. *Weak alone.*
 **Before:**
 > The report is high-quality, the process is well-documented, and the plan is long-term.
 **After:**
@@ -304,7 +311,7 @@ Templates and visual editors also produce clean formatting. The tell is decorati
 
 ### 21. Curly quotation marks
 
-**Problem:** Curly quotes (“...”) appear where the writer or target format uses straight quotes ("..."). Most editors auto-curl, so this is *weak alone*.
+**Problem:** In English, curly quotes (“...”) appear where the writer or target format uses straight quotes ("..."). Most editors auto-curl, so this is *weak alone*. Other languages keep their own marks; never straighten « » or “ ” in Portuguese.
 **Before:**
 > He said “the project is on track” but others disagreed.
 **After:**
