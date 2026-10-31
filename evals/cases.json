@@ -120,6 +120,25 @@
     "notes": "§27: mensagem a um cliente em tom frio e administrativo."
   },
   {
+    "id": "pt-hipnose",
+    "lang": "pt-PT",
+    "input": "Vamos mergulhar nesta jornada transformadora. Podes começar a notar a tua respiração. Talvez notes que, à medida que o ar entra e sai, os ombros ficam mais leves. Além disso, é importante salientar que uma parte de ti pode simplesmente descansar. Podes deixar que isso aconteça, ao teu próprio ritmo.",
+    "must_not_contain": [
+      "vamos mergulhar",
+      "jornada",
+      "além disso",
+      "é importante salientar"
+    ],
+    "must_keep": [
+      "Podes começar a notar",
+      "Talvez notes",
+      "à medida que",
+      "uma parte de ti pode",
+      "ao teu próprio ritmo"
+    ],
+    "notes": "Guião de hipnose: a linguagem permissiva fica; só saem os sinais de IA."
+  },
+  {
     "id": "en-launch",
     "lang": "en",
     "input": "I'm thrilled to announce that shared drafts are finally here! It's not just a feature; it's a whole new way to collaborate. Comments stay anchored to the exact sentence they reference — even as the text evolves. Let that sink in.",
@@ -131,7 +150,7 @@
     ],
     "must_keep": [
       "shared drafts",
-      "comments"
+      "sentence"
     ],
     "notes": "§1, §2, §8 and §22 in English."
   }

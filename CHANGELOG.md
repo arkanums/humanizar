@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.3.0
+
+- Hypnosis scripts and guided meditations now keep their repetition, permissive phrasing, and slow pace. `references/pt-pt.md` lists the forms to keep in Portuguese and the tells to fix in them. Before, §7, §9, and §27 would flag these deliberate techniques.
+- Added the test case `pt-hipnose`.
+
 ## 4.2.0
 
 - Added pattern #27 and section G for abstract and compressed sentences: unclear referents and actions, abstract nouns that act like people, literary images that show nothing, and an administrative tone in stories, conversations, and client messages. 27 patterns total.
