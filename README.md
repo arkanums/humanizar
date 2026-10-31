@@ -114,6 +114,8 @@ Now humanize this text:
 
 Humanizar follows the sample's rhythm, word choice, punctuation, and deliberate quirks, including dashes if you use them.
 
+To use the same sample every time, save it as `voz.md` (or `voice.md`) in the skill's folder. Humanizar reads it on each use and copies its voice, never its content. The repo's `.gitignore` keeps that file out of commits.
+
 ## How it works
 
 A language model writes whatever is most likely to come next, so by default it makes the choice that fits the widest range of readers and subjects. A person chooses for one reader and one subject. Every tell Humanizar looks for is a form of that default choice: a sentence that signals importance instead of adding a fact, rhythm or formatting applied by rule, an ordinary fact dressed as a pivotal one, text left over from the chat, a reply that re-explains what the reader already knows, or a sentence written for the page that nobody would say aloud.
@@ -121,7 +123,7 @@ A language model writes whatever is most likely to come next, so by default it m
 > "LLMs use statistical algorithms to guess what should come next. The result tends toward the most statistically likely result that applies to the widest variety of cases."
 > Wikipedia, ["Signs of AI writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)
 
-Humanizar marks every tell it finds, strongest first. It drafts a rewrite without treating the original structure as fixed, checks the draft against the patterns and the original claims, and then writes the final version. It does not make things up. A name, number, date, quote, citation, or other factual detail must come from the source or the writer, and if a sentence needs a detail that is missing, Humanizar asks instead of inventing one.
+Humanizar marks every tell it finds, strongest first. When the text needs more than small edits, it notes the claims and facts and retells them from the notes, so the original's structure does not carry over. Then it asks a second reader for the sentences that still sound AI-written: a separate session or subagent when the agent can start one, or a fresh reread otherwise. It checks the draft against the notes and writes the final version. It does not make things up. A name, number, date, quote, citation, or other factual detail must come from the source or the writer, and if a sentence needs a detail that is missing, Humanizar asks instead of inventing one.
 
 When you paste text, Humanizar returns the final version and a short list of the main changes. Ask for the draft if you want to see its work. Point it at a file and it changes only the prose, leaving code, data, frontmatter, and link targets alone. Personal writing keeps the writer's opinions and quirks. Technical and reference prose stays neutral and plain.
 

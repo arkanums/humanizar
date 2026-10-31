@@ -19,6 +19,7 @@ Keep the skill portable. Do not write instructions that limit it to one or two a
 - `.cursor-plugin/plugin.json` describes the Cursor plugin. Omit a `skills` path so Cursor loads the root `SKILL.md`.
 - `agents/openai.yaml` holds the display name, short description, and default prompt for OpenAI-compatible agents.
 - `scripts/validate-package.py` checks package files and shared values.
+- `voz.md` or `voice.md`, when a user saves one next to `SKILL.md`, holds that user's writing sample. `.gitignore` keeps it out of the repo; never commit one.
 - `evals/cases.json` holds test cases; `scripts/check-eval.py` checks a rewrite against one case.
 
 ## Rules for changes

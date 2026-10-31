@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.4.0
+
+- Changed how the skill works. When a text needs more than small edits, it now notes the claims and facts and writes the draft from the notes, so the original's structure does not carry over. A second reading follows, from a separate session or subagent when the agent can start one.
+- The skill reads a writing sample saved as `voz.md` or `voice.md` next to `SKILL.md`, and copies its voice, never its content. `.gitignore` keeps that file out of the repo.
+- Cut lines that the new process makes repeated, to stay under the word limit.
+
 ## 4.3.0
 
 - Hypnosis scripts and guided meditations now keep their repetition, permissive phrasing, and slow pace. `references/pt-pt.md` lists the forms to keep in Portuguese, including the conversational hypnosis patterns from the owner's own manuscript, and the tells to fix in them. Before, §7, §9, and §27 would flag these deliberate techniques.
