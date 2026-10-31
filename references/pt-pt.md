@@ -2,6 +2,8 @@
 
 Este ficheiro completa o `SKILL.md` quando o texto está em português. Os padrões do `SKILL.md` continuam a valer; aqui estão as formas que tomam em português, as regras que mudam e as palavras que a IA usa muito mais do que as pessoas.
 
+Os exemplos de antes e depois mostram o princípio. Nunca copies a redação deles para a reescrita: escreve a partir do texto que tens à frente.
+
 Escreve sempre em português europeu, segundo o Acordo Ortográfico de 1990, mesmo quando o texto original está em português do Brasil. Só mantém a variante brasileira se o utilizador o pedir; nesse caso ignora a secção 1.
 
 ## 1. Brasileirismos num texto português
@@ -34,7 +36,7 @@ Estas regras substituem as regras inglesas do §8, §10 e §21.
 - **Travessão no diálogo.** Na ficção portuguesa, o travessão abre a fala das personagens. Mantém-no sempre.
 - **Travessão no meio da frase.** O português também usa o travessão para intercalar, mas a IA usa-o em quase todas as frases. Aplica o §8: troca-o por vírgulas, parênteses ou ponto final, ou reescreve a frase, exceto se a amostra do escritor o usar com frequência. Não o troques por dois pontos.
 - **Hífen.** Segue o Acordo Ortográfico. Nunca tires o hífen dos pronomes ligados ao verbo (diz-se, deu-lhe, fá-lo-ia). A regra inglesa do §10 não se aplica.
-- **Dois pontos.** A IA usa os dois pontos para anunciar uma explicação ou uma lista («O inconsciente só se revela de forma indireta: nos sonhos...», «Surge a transferência: o paciente...»). A falar, ninguém faz isto. Começa outra frase, ou liga as ideias com «por exemplo», «porque» ou «ou seja». Mantém os dois pontos antes de uma citação, de uma lista que o leitor precisa de ver inteira e nas horas. Num texto em prosa, mais do que uns poucos dois pontos já é sinal.
+- **Dois pontos.** A IA usa os dois pontos para anunciar uma explicação ou uma lista («A cidade mudou muito: há mais turistas, mais trânsito...», «Surge então o problema: o motor não pega.»). A falar, ninguém faz isto. Começa outra frase, ou liga as ideias com «por exemplo», «porque» ou «ou seja». Mantém os dois pontos antes de uma citação, de uma lista que o leitor precisa de ver inteira e nas horas. Num texto em prosa, mais do que uns poucos dois pontos já é sinal.
 - **Maiúsculas nos títulos.** Em português, um título com maiúscula em cada palavra ("Estratégias Para O Crescimento") é um decalque do inglês. Usa maiúscula só na primeira palavra e nos nomes próprios.
 - **Números e moeda.** Vírgula decimal (3,5), espaço ou ponto nos milhares (12 000 ou 12.000) e o euro depois do número (10 € ou 10 euros). "€10" e "3.5" são formas inglesas.
 
@@ -71,10 +73,10 @@ Os modelos usam estas palavras muito mais do que um português a falar ou a escr
 Troca cada uma pela palavra que uma pessoa diria, ou corta-a. Muitas vezes a frase fica melhor sem nada no lugar.
 
 **Antes:**
-> Além disso, é importante salientar que esta abordagem inovadora desempenha um papel crucial no panorama atual da saúde mental, potenciando uma jornada transformadora para cada paciente.
+> Além disso, é importante salientar que esta biblioteca desempenha um papel crucial no panorama cultural da cidade, potenciando uma jornada de descoberta para cada leitor.
 
 **Depois:**
-> Esta abordagem é nova e tem hoje um lugar importante na saúde mental. Pode mudar muito a vida de um paciente.
+> A biblioteca é importante na vida cultural da cidade, e muitos leitores descobrem lá livros que não conheciam.
 
 Não acrescentes onde, quem ou quantos se o original não o diz.
 
@@ -94,28 +96,28 @@ Muitas IAs escrevem em português frases que se percebem palavra a palavra, mas 
 
 **Frases comprimidas e referentes vagos.** O leitor tem de parar para adivinhar «isto refere-se a quê?» ou «o que é que aconteceu?». Os sinais são substantivos no lugar de verbos (a gestão das expectativas, a tomada de decisão, a realização do processo), «isto», «esse processo», «esta dinâmica» ou «tal» sem referente claro, e frases teóricas que juntam três ideias. Diz quem fez o quê, a quem, e o que aconteceu. Parte a frase em duas.
 
-> Antes: A gestão emocional do conflito permitiu uma reconfiguração da relação.
-> Depois: Conseguiram lidar com o que sentiam durante a discussão, e a relação mudou.
+> Antes: A otimização da gestão do tempo permitiu uma melhoria da produtividade da equipa.
+> Depois: A equipa passou a organizar melhor o tempo, e agora faz mais.
 
-**Palavras pequenas que faltam.** A IA corta artigos, «que», preposições e verbos, e a frase fica a soar a telegrama ou a folheto: mascar pastilha, reduzir ansiedade, melhorar qualidade do sono, marcação através de formulário, ideal para quem procura. Lê a frase em voz alta e repõe as palavras que dirias: mascar uma pastilha, reduzir a ansiedade, dormir melhor, pode marcar no formulário. As expressões feitas sem artigo continuam certas (beber café, ter fome, andar de carro, pedir ajuda).
+**Palavras pequenas que faltam.** A IA corta artigos, «que», preposições e verbos, e a frase fica a soar a telegrama ou a folheto: mascar pastilha, comprar bilhete na bilheteira, inscrição através de email, aula com início em outubro. Lê a frase em voz alta e repõe as palavras que dirias: mascar uma pastilha, comprar o bilhete na bilheteira, inscreva-se por email, as aulas começam em outubro. As expressões feitas sem artigo continuam certas (beber café, ter fome, andar de carro, pedir ajuda).
 
-> Antes: Sessão com duração de 50 minutos. Ideal para quem procura reduzir ansiedade.
-> Depois: Cada sessão dura 50 minutos. É indicada para quem quer reduzir a ansiedade.
+> Antes: Aula com duração de uma hora. Indicada para quem procura melhorar técnica de guitarra.
+> Depois: Cada aula dura uma hora. Serve a quem quer melhorar a técnica na guitarra.
 
-**Personificação abstrata.** Uma ideia faz o que só as pessoas fazem: a dúvida instalou-se, o silêncio falou mais alto, o medo tomou conta, a memória pede tempo, o corpo sabe, a vida ensinou-lhe. O leitor tem de traduzir. Põe a pessoa como sujeito.
+**Personificação abstrata.** Uma ideia faz o que só as pessoas fazem: a saudade bateu à porta, o medo tomou conta, a memória pede tempo, a vida ensinou-lhe, o cansaço venceu. O leitor tem de traduzir. Põe a pessoa como sujeito.
 
-> Antes: A dúvida instalou-se e o silêncio tomou conta da sala.
-> Depois: Ele ficou na dúvida, e ninguém disse nada.
+> Antes: A saudade bateu à porta e a tristeza tomou conta do jantar.
+> Depois: Lembrou-se do pai e esteve calado o resto do jantar.
 
-O mesmo vale para disciplinas, instituições e métodos: «a psicanálise pede», «a terapia convida», «a empresa acredita», «o método permite». Uma vez é natural («A psicanálise ensina que...»). Quando a disciplina é o sujeito de quase todas as frases, o texto soa a folheto. Põe como sujeito quem faz de facto: o analista, Freud, o paciente, a equipa.
+O mesmo vale para disciplinas, instituições e métodos: «o ioga convida», «a escola acredita», «a empresa quer», «o método permite». Uma vez é natural («A física ensina que...»). Quando a disciplina é o sujeito de quase todas as frases, o texto soa a folheto. Põe como sujeito quem faz de facto: o professor, o aluno, o autor, a equipa.
 
-> Antes: A psicanálise não promete uma felicidade fácil. Pede a cada pessoa que conheça o próprio desejo.
-> Depois: Um psicanalista não promete felicidade a ninguém. O que espera é que o paciente perceba o que deseja de facto.
+> Antes: O ioga não promete milagres. Convida cada praticante a ouvir o próprio corpo.
+> Depois: Na aula de ioga ninguém promete milagres. O professor pede aos alunos que reparem no que sentem.
 
 **Verbos vagos de consultório.** Trabalhar (sentimentos, emoções, questões), processar, lidar com, dar espaço a, gerir emoções, integrar, ressignificar, desbloquear. O leitor fica sem saber o que acontece de facto. Diz o que a pessoa faz, ou o que muda: fala sobre isso, repara, chora, deixa de evitar. Se o original não diz o que acontece, escreve uma frase mais simples em vez de inventar.
 
-> Antes: A transferência é o que permite trabalhar esses sentimentos.
-> Depois: Como esses sentimentos aparecem ali, na relação com o analista, podem ser falados no consultório.
+> Antes: O workshop é o que permite trabalhar essas emoções.
+> Depois: No workshop, cada pessoa conta o que sentiu e ouve o que os outros sentiram.
 
 **Imagens literárias sem nada concreto.** Um eco do que fomos, a luz suave da manhã a abraçar a cidade, as cicatrizes invisíveis da alma. Mantém uma imagem só quando mostra algo que se vê, ouve ou toca. Se o original não tem esse pormenor, escreve a ideia simples em vez de o inventar.
 
@@ -126,18 +128,18 @@ O mesmo vale para disciplinas, instituições e métodos: «a psicanálise pede�
 
 **Registo de relatório numa conversa ou numa história.** Palavras de serviço e de análise onde se esperava fala: efetuar, proceder a, relativamente a, no que concerne, a nível de, face a, aquando, no sentido de, de forma a, venho por este meio, a referida, e «o mesmo» ou «a mesma» no lugar de um nome («a marcação foi alterada e a mesma...»). Numa narrativa ou numa parábola, palavras analíticas como estratégia, recursos, dinâmica, processo, gestão, perspetiva e contexto soam a relatório. São construções gramaticalmente possíveis, mas ninguém fala assim.
 
-> Antes: Perante a escassez de recursos, o camponês optou por uma estratégia de partilha com a comunidade.
-> Depois: O camponês tinha pouco e, mesmo assim, repartiu-o com os vizinhos.
+> Antes: Perante a ausência de alternativas, o pescador optou por uma estratégia de regresso antecipado ao porto.
+> Depois: Como não tinha outra saída, o pescador voltou mais cedo para o porto.
 
-> Antes: Venho por este meio informar que a sua sessão foi reagendada para o dia 12.
-> Depois: A sua sessão passou para o dia 12.
+> Antes: Venho por este meio informar que a sua encomenda foi expedida no dia 3.
+> Depois: A sua encomenda saiu no dia 3.
 
 **Frases genéricas.** Servem para qualquer pessoa e qualquer texto: cada pessoa é única, todos passamos por momentos difíceis, a mudança é um processo, cada caso é um caso. Usa o caso concreto do original, ou corta a frase.
 
-**Enumerações e catálogos.** A IA enumera conceitos em vez de os explicar: «desejos, medos e memórias», «nos sonhos, nos lapsos de linguagem, nos esquecimentos e nos sintomas», «a forma como amamos, o que tememos e como nos relacionamos». Quem explica a alguém escolhe um ou dois exemplos e conta-os. Uma lista curta com «como» («como desejos, medos ou memórias») continua a ser catálogo: escolhe um exemplo e diz como aparece. Desenvolve o exemplo mais claro do original, ou reparte os itens por frases com verbo. Mantém a lista quando o leitor precisa de todos os itens, como numa receita ou numa lista de passos.
+**Enumerações e catálogos.** A IA enumera conceitos em vez de os explicar: «ritmo, melodia e harmonia», «no fado, nas serenatas, no jazz e no cinema», «a forma como comemos, como dormimos e como trabalhamos». Quem explica a alguém escolhe um ou dois exemplos e conta-os. Uma lista curta com «como» («como a horta, o pomar ou o jardim») continua a ser catálogo: escolhe um exemplo e diz como aparece. Desenvolve o exemplo mais claro do original, ou reparte os itens por frases com verbo. Mantém a lista quando o leitor precisa de todos os itens, como numa receita ou numa lista de passos.
 
-> Antes: O inconsciente só se revela de forma indireta: nos sonhos, nos lapsos de linguagem, nos esquecimentos que parecem casuais e nos sintomas.
-> Depois: O inconsciente não se mostra às claras. Aparece, por exemplo, num sonho, ou quando trocamos uma palavra por outra sem querer. Os esquecimentos e os sintomas também podem ser sinais dele.
+> Antes: A guitarra portuguesa aparece em vários contextos: no fado, nas serenatas de Coimbra, no jazz e em bandas sonoras.
+> Depois: A guitarra portuguesa ouve-se sobretudo no fado. Em Coimbra também acompanha as serenatas, e há músicos de jazz que já a usam.
 
 O mesmo acontece à escala do texto inteiro. Parágrafos que começam por «Em primeiro lugar», «Outra ideia central», «Também» e «Por fim» são uma lista numerada por palavras. Liga os parágrafos pelo que cada um explica, como se a conversa fosse avançando.
 
@@ -145,7 +147,18 @@ O mesmo acontece à escala do texto inteiro. Parágrafos que começam por «Em p
 
 **Frases que soam a anúncio.** Descubra, transforme a sua vida, dê o primeiro passo, o seu bem-estar merece, permita-se, uma experiência única. Diz o que a coisa é e o que faz (§16).
 
-## 7. O que manter
+## 7. Verificação final
+
+Antes de entregar, relê a reescrita e procura os sinais que mais sobrevivem em português. Corrige cada um que encontrares:
+
+- dois pontos a anunciar uma explicação ou uma lista;
+- três ou mais nomes ou verbos seguidos numa frase («X, Y e Z», «como amamos, o que tememos e como...»);
+- uma disciplina, instituição ou ideia como sujeito de verbos de pessoa (pede, convida, ensina, acredita);
+- verbos vagos que não dizem o que acontece (trabalhar, processar, lidar com, permitir);
+- um salto do episódio para uma lição abstrata no fim de um parágrafo;
+- artigos ou «que» em falta.
+
+## 8. O que manter
 
 Muitas destas palavras são normais no português de Portugal quando têm sentido próprio. "Fundamental" num texto de física, "garantir" num contrato e "explorar" uma mina não são sinais. Também não são sinais o "pois", o "aliás", o "ora" e o "portanto" de quem fala assim, nem expressões regionais, nem o calão de uma época. Mantém o tratamento que o escritor escolheu (tu, você entre colegas que o usam, ou o senhor) e não o mudes sem razão. Num texto técnico, jurídico ou académico, o registo formal é o certo. A secção 6 vale para conversas, histórias, textos pessoais, mensagens a clientes e textos de divulgação, ou seja, textos que explicam um assunto a quem não é especialista.
 
