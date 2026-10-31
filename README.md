@@ -114,7 +114,7 @@ Now humanize this text:
 
 Humanizar follows the sample's rhythm, word choice, punctuation, and deliberate quirks, including dashes if you use them.
 
-To use the same sample every time, save it as `voz.md` (or `voice.md`) in the skill's folder. Humanizar reads it on each use and copies its voice, never its content. The repo's `.gitignore` keeps that file out of commits.
+The sample can be your own writing or a text by a human writer you like. To use the same sample every time, save it as `voz.md` (or `voice.md`) in the skill's folder. Humanizar reads it on each use and takes only its voice: rhythm, sentence length, word choice, and how ideas connect. The text keeps its own topic, form of address, and genre. The repo's `.gitignore` keeps that file out of commits.
 
 ## How it works
 
