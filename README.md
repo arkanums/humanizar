@@ -12,9 +12,10 @@ Humanizar reescreve texto que soa a IA para que soe a uma pessoa, sem mudar o qu
 
 - construções como «não se trata apenas de X, mas de Y» e frases finais como «E isso faz toda a diferença.»;
 - palavras que a IA usa muito e as pessoas quase não dizem, como *crucial*, *potenciar*, *panorama*, *jornada* e *vale a pena destacar*;
-- brasileirismos num texto para leitores portugueses (*você*, *tela*, *time*, *estou fazendo*).
+- frases comprimidas e abstratas que ninguém diria em voz alta: referentes vagos, ideias que fazem o que só as pessoas fazem («a dúvida instalou-se»), imagens literárias sem nada concreto, saltos do episódio para a lição, e o tom frio de relatório numa conversa ou numa história;
+- brasileirismos (*você*, *tela*, *time*, *estou fazendo*). Um texto todo em português do Brasil passa para português de Portugal, salvo se pedir o contrário.
 
-Mantém as aspas « », os travessões de diálogo, o hífen dos pronomes (*disse-lhe*) e a variante brasileira quando o texto é brasileiro. A lista completa está em [`references/pt-pt.md`](references/pt-pt.md).
+Mantém as aspas « », os travessões de diálogo, e o hífen dos pronomes (*disse-lhe*). A lista completa está em [`references/pt-pt.md`](references/pt-pt.md).
 
 ```
 /humanizar
@@ -42,7 +43,7 @@ These are the most common signs of AI writing, and Humanizar rewrites any of the
 4. **A staged run-up:** "Here's the thing." "Honestly?"
 5. **Arguing with no one:** "I'm not saying X, but..."
 
-Humanizar checks for [26 patterns](#the-26-patterns) in all.
+Humanizar checks for [27 patterns](#the-27-patterns) in all.
 
 ## Installation
 
@@ -113,18 +114,20 @@ Now humanize this text:
 
 Humanizar follows the sample's rhythm, word choice, punctuation, and deliberate quirks, including dashes if you use them.
 
+The sample can be your own writing or a text by a human writer you like. To use the same sample every time, save it as `voz.md` (or `voice.md`) in the skill's folder. Humanizar reads it on each use and takes only its voice: rhythm, sentence length, word choice, and how ideas connect. The text keeps its own topic, form of address, and genre. The repo's `.gitignore` keeps that file out of commits.
+
 ## How it works
 
-A language model writes whatever is most likely to come next, so by default it makes the choice that fits the widest range of readers and subjects. A person chooses for one reader and one subject. Every tell Humanizar looks for is a form of that default choice: a sentence that signals importance instead of adding a fact, rhythm or formatting applied by rule, an ordinary fact dressed as a pivotal one, text left over from the chat, or a reply that re-explains what the reader already knows.
+A language model writes whatever is most likely to come next, so by default it makes the choice that fits the widest range of readers and subjects. A person chooses for one reader and one subject. Every tell Humanizar looks for is a form of that default choice: a sentence that signals importance instead of adding a fact, rhythm or formatting applied by rule, an ordinary fact dressed as a pivotal one, text left over from the chat, a reply that re-explains what the reader already knows, or a sentence written for the page that nobody would say aloud.
 
 > "LLMs use statistical algorithms to guess what should come next. The result tends toward the most statistically likely result that applies to the widest variety of cases."
 > Wikipedia, ["Signs of AI writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)
 
-Humanizar marks every tell it finds, strongest first. It drafts a rewrite without treating the original structure as fixed, checks the draft against the patterns and the original claims, and then writes the final version. It does not make things up. A name, number, date, quote, citation, or other factual detail must come from the source or the writer, and if a sentence needs a detail that is missing, Humanizar asks instead of inventing one.
+Humanizar marks every tell it finds, strongest first. When the text needs more than small edits, it notes the claims and facts and retells them from the notes, so the original's structure does not carry over. Then it asks a second reader for the sentences that still sound AI-written: a separate session or subagent when the agent can start one, ideally on a different model, since each model sees its own habits less well. Otherwise it rereads the draft fresh. It checks the draft against the notes and writes the final version. It does not make things up. A name, number, date, quote, citation, or other factual detail must come from the source or the writer, and if a sentence needs a detail that is missing, Humanizar asks instead of inventing one.
 
 When you paste text, Humanizar returns the final version and a short list of the main changes. Ask for the draft if you want to see its work. Point it at a file and it changes only the prose, leaving code, data, frontmatter, and link targets alone. Personal writing keeps the writer's opinions and quirks. Technical and reference prose stays neutral and plain.
 
-## The 26 patterns
+## The 27 patterns
 
 The patterns are numbered by strength and frequency. The first five justify an edit on a single sighting. Patterns marked *weak alone* count only when several tells share a passage, because a careful writer may use any one of them on purpose.
 
@@ -183,6 +186,12 @@ The patterns are numbered by strength and frequency. The first five justify an e
 | # | Pattern | Before | After |
 |---|---------|--------|-------|
 | 26 | **Re-explaining what the reader knows** | A reply that walks the diagnosis and proves the plan works before the decision | Lead with the decision; leave the diagnosis and the proof for the ticket that follows |
+
+### G. Written for the page, not said to someone
+
+| # | Pattern | Before | After |
+|---|---------|--------|-------|
+| 27 | **Abstract and compressed sentences** | "The weight of expectation shaped every silence between them." | Say who did what, with ordinary verbs: "They expected a lot from each other and never said so." |
 
 ## Full example
 

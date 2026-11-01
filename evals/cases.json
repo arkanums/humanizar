@@ -3,40 +3,236 @@
     "id": "pt-anuncio",
     "lang": "pt-PT",
     "input": "Estamos entusiasmados por anunciar o novo plano de sessões online! 🚀 Não se trata apenas de uma mudança de formato; trata-se de uma nova forma de cuidar de si. Além disso, é importante salientar que cada sessão dura 50 minutos e custa €45. E isso faz toda a diferença.",
-    "must_not_contain": ["não se trata apenas", "além disso", "é importante salientar", "e isso faz toda a diferença", "🚀", "€45", "—"],
-    "must_keep": ["50 minutos", "45"],
+    "must_not_contain": [
+      "não se trata apenas",
+      "além disso",
+      "é importante salientar",
+      "e isso faz toda a diferença",
+      "🚀",
+      "€45",
+      "—",
+      "entusiasmados",
+      "temos o prazer"
+    ],
+    "must_keep": [
+      "50 minutos",
+      "45"
+    ],
     "notes": "§1, §2, §4 e §12 em português; moeda na forma portuguesa."
   },
   {
     "id": "pt-brasileirismos",
     "lang": "pt-PT",
-    "input": "Você vai perceber que o time está fazendo um ótimo trabalho. Se você quiser, basta acessar o arquivo na tela inicial do celular e checar o cadastro do usuário.",
-    "must_not_contain": ["você", "time", "está fazendo", "arquivo", "tela", "celular", "checar", "usuário"],
+    "input": "Vais perceber que o time está fazendo um ótimo trabalho. Se quiseres, basta acessar o arquivo na tela inicial do celular e checar o cadastro do usuário.",
+    "must_not_contain": [
+      "time",
+      "está fazendo",
+      "acessar",
+      "arquivo",
+      "tela",
+      "celular",
+      "checar",
+      "usuário"
+    ],
     "must_keep": [],
-    "notes": "Formas brasileiras num texto para leitores de Portugal."
+    "notes": "Texto em português de Portugal (tu, quiseres) com formas brasileiras misturadas."
+  },
+  {
+    "id": "pt-brasil-converte",
+    "lang": "pt-BR",
+    "input": "Você vai perceber que o time está fazendo um ótimo trabalho. Se você quiser, basta acessar o arquivo na tela inicial do celular e checar o cadastro do usuário.",
+    "must_not_contain": [
+      "você",
+      "time",
+      "está fazendo",
+      "acessar",
+      "arquivo",
+      "tela",
+      "celular",
+      "checar",
+      "usuário"
+    ],
+    "must_keep": [],
+    "notes": "Texto todo em português do Brasil: a reescrita passa-o para português de Portugal."
   },
   {
     "id": "pt-dialogo",
     "lang": "pt-PT",
     "input": "— Já chegaste? — perguntou a mãe, sem tirar os olhos do livro.\n— Há meia hora — respondeu o Tiago. — Não me ouviste entrar?\nEla disse «não» e voltou à leitura.",
-    "must_not_contain": ["\"não\""],
-    "must_keep": ["— Já chegaste?", "— Há meia hora", "«não»"],
+    "must_not_contain": [
+      "\"não\""
+    ],
+    "must_keep": [
+      "— Já chegaste?",
+      "— Há meia hora",
+      "«não»"
+    ],
     "notes": "Ficção: os travessões de diálogo e as aspas angulares ficam. O texto quase não precisa de mudanças."
   },
   {
     "id": "pt-saude-mental",
     "lang": "pt-PT",
     "input": "No panorama atual da saúde mental, a hipnoterapia desempenha um papel crucial, potenciando uma jornada transformadora para cada paciente. Vale a pena destacar que esta abordagem holística não é apenas uma técnica, é uma verdadeira ferramenta de autoconhecimento.",
-    "must_not_contain": ["panorama", "desempenha um papel", "jornada", "vale a pena destacar", "holística", "não é apenas", "verdadeira ferramenta"],
-    "must_keep": ["hipnoterapia"],
+    "must_not_contain": [
+      "panorama",
+      "desempenha um papel",
+      "jornada",
+      "vale a pena destacar",
+      "holística",
+      "não é apenas",
+      "verdadeira ferramenta"
+    ],
+    "must_keep": [
+      "hipnoterapia"
+    ],
     "notes": "Vocabulário de IA em grupo. A reescrita não pode inventar estudos, números nem clínicas."
+  },
+  {
+    "id": "pt-parabola",
+    "lang": "pt-PT",
+    "input": "Perante a escassez de recursos, o camponês optou por uma estratégia de partilha com a comunidade. A dúvida instalou-se no seu coração, mas a generosidade falou mais alto. Naquele momento, compreendeu que a abundância é, no fundo, uma questão de perspetiva.",
+    "must_not_contain": [
+      "escassez de recursos",
+      "estratégia",
+      "a dúvida instalou-se",
+      "falou mais alto",
+      "perspetiva",
+      "no fundo"
+    ],
+    "must_keep": [
+      "camponês"
+    ],
+    "notes": "§27: registo analítico numa parábola, personificação abstrata e salto do episódio para o conceito."
+  },
+  {
+    "id": "pt-administrativo",
+    "lang": "pt-PT",
+    "input": "Venho por este meio informar que, relativamente à sua marcação, a mesma foi reagendada para o dia 12, no sentido de garantir uma melhor resposta às suas necessidades.",
+    "must_not_contain": [
+      "venho por este meio",
+      "relativamente",
+      "a mesma",
+      "no sentido de"
+    ],
+    "must_keep": [
+      "12"
+    ],
+    "notes": "§27: mensagem a um cliente em tom frio e administrativo."
+  },
+  {
+    "id": "pt-hipnose",
+    "lang": "pt-PT",
+    "input": "Vamos mergulhar nesta jornada transformadora. Podes começar a notar a tua respiração. Talvez notes que, à medida que o ar entra e sai, os ombros ficam mais leves. Além disso, é importante salientar que uma parte de ti pode simplesmente descansar. Podes deixar que isso aconteça, ao teu próprio ritmo.",
+    "must_not_contain": [
+      "vamos mergulhar",
+      "jornada",
+      "além disso",
+      "é importante salientar"
+    ],
+    "must_keep": [
+      "Podes começar a notar",
+      "Talvez notes",
+      "à medida que",
+      "uma parte de ti pode",
+      "ao teu próprio ritmo"
+    ],
+    "notes": "Guião de hipnose: a linguagem permissiva fica; só saem os sinais de IA."
+  },
+  {
+    "id": "pt-hipnose-conversacional",
+    "lang": "pt-PT",
+    "input": "Quanto mais ouves a minha voz, mais fundo podes ir. Estás a ouvir estas palavras, estás a respirar, e podes ir mais fundo agora. Não sei se vais notar primeiro as mãos ou os ombros, e não precisas de saber como. Adicionalmente, é crucial destacar que este processo potencia o teu bem-estar de forma significativa.",
+    "must_not_contain": [
+      "adicionalmente",
+      "é crucial",
+      "destacar",
+      "potencia",
+      "de forma significativa"
+    ],
+    "must_keep": [
+      "Quanto mais ouves a minha voz",
+      "mais fundo",
+      "Não sei se",
+      "não precisas de saber como",
+      "agora"
+    ],
+    "notes": "Hipnose conversacional: falsa lógica, negação, «agora» e encadeamento ficam; só saem os sinais de IA."
+  },
+  {
+    "id": "pt-palavras-em-falta",
+    "lang": "pt-PT",
+    "input": "Sessão com duração de 50 minutos. Ideal para quem procura reduzir ansiedade e melhorar qualidade do sono. Marcação através de formulário no site.",
+    "must_not_contain": [
+      "sessão com duração",
+      "ideal para",
+      "reduzir ansiedade",
+      "melhorar qualidade",
+      "marcação através de formulário"
+    ],
+    "must_keep": [
+      "50 minutos",
+      "site"
+    ],
+    "notes": "Artigos e verbos em falta: o texto soa a telegrama ou a folheto."
+  },
+  {
+    "id": "pt-psicanalise",
+    "lang": "pt-PT",
+    "input": "A psicanálise, criada por Sigmund Freud no final do século XIX, ensina sobretudo que não mandamos totalmente em nós próprios. Por baixo do que pensamos e dizemos de forma consciente existe uma vida psíquica inconsciente. É feita de desejos, medos e memórias que foram afastados da consciência mas que continuam a agir sobre nós.\n\nEste inconsciente não se mostra diretamente. Revela-se de forma indireta: nos sonhos, nos lapsos de linguagem, nos esquecimentos que parecem casuais e nos sintomas que o corpo ou o comportamento exprimem sem que se perceba porquê. Para a psicanálise, nada disto acontece por acaso, e tudo tem um sentido que pode ser decifrado.\n\nOutra lição central é a importância da infância. As primeiras relações, sobretudo com o pai e a mãe ou com quem cuidou de nós, deixam marcas profundas. Moldam a forma como amamos, tememos e nos relacionamos com os outros ao longo da vida. Muitos conflitos da vida adulta repetem, sob novas formas, histórias antigas que ficaram por resolver.\n\nA psicanálise ensina também que o sofrimento psíquico pode ser tratado através da palavra. No consultório, o paciente é convidado a falar livremente e a dizer o que lhe vem à cabeça, sem se censurar. O analista escuta com atenção e ajuda a encontrar ligações entre o que é dito e o que fica escondido. Neste processo surge a transferência: o paciente projeta no analista sentimentos ligados a pessoas importantes do seu passado, e isso permite trabalhá-los.\n\nPor fim, a psicanálise não promete uma felicidade fácil. Convida cada pessoa a conhecer o próprio desejo e a assumir a responsabilidade pela sua história. Compreendermo-nos melhor não acaba com a dor, mas permite viver com mais liberdade.",
+    "must_not_contain": [
+      "outra lição central",
+      "por fim",
+      "desejos, medos e memórias",
+      "nos sonhos, nos lapsos",
+      "permite trabalhá-los",
+      "indireta:",
+      "transferência:",
+      "marcas profundas",
+      "desejos, medos ou memórias",
+      "permite trabalhar",
+      "trabalhar esses sentimentos",
+      "pede a cada pessoa",
+      "convida cada pessoa"
+    ],
+    "must_keep": [
+      "Freud",
+      "inconsciente",
+      "infância",
+      "transferência"
+    ],
+    "notes": "Texto de divulgação gerado por IA: catálogos, dois pontos, lista de lições à escala do texto e frases comprimidas. Também: disciplina como sujeito de quase todas as frases e verbos vagos de consultório."
+  },
+  {
+    "id": "pt-historia-coerencia",
+    "lang": "pt-PT",
+    "input": "Na décima terceira varanda de um palácio construído na encosta de um monte, morava uma tecelã chamada Sofia, junto dos seus vinte e três irmãos. Do sítio onde trabalhava, mal erguia os olhos do tear, via ao longe o clarão que saía por trás das cortinas da sala do Tesouro, no ponto mais alto da montanha. Passou tanto tempo a admirar aquela claridade que largou os fios e o ofício da casa, e já só cantava para o alto, com vontade de subir até lá.\n\nOs guardas dos doze pátios de baixo e o intendente da muralha, um homem soberbo chamado Autades, ganharam-lhe ódio por ela querer passar acima deles e ter deixado o trabalho que faziam todos. Para a enganar, o intendente acendeu um braseiro dentro de uma lanterna com feitio de cabeça de leão e mandou os seus homens pousá-la lá no fundo do barranco escuro, no meio do lodo, para ver se ela olhava para baixo.\n\nUm dia, Sofia espreitou pela borda da varanda e viu aquele clarão lá em baixo. Como não sabia da armadilha do intendente, julgou que era a mesma luz do Tesouro que tinha descido ao vale. Pensou que, se fosse lá buscá-la sozinha, sem dizer nada ao marido, podia juntar lume suficiente para abrir caminho até ao cimo do monte.\n\nDesceu os doze patamares da encosta sem olhar às ameaças dos guardas e meteu-se pelo barranco dentro para agarrar a lanterna. Mal lá chegou, os homens do intendente cercaram-na na lama. O fogo daquela forja com cara de leão queimou-lhe as mãos, apagou a candeia que ela trazia ao peito e deixou-a sem forças no escuro, rodeada de vultos que pareciam serpentes e feras.\n\nQuando percebeu o engano e viu que não conseguia subir a escarpa sozinha, Sofia não tentou lutar com os guardas. Lembrou-se do clarão verdadeiro que tinha visto desde o início lá no alto e pôs-se a chamar por ele, treze vezes seguidas, uma por cada degrau que tinha descido. Os guardas das varandas riam-se dela, convencidos de que ninguém a ouvia no fundo da cova.\n\nO Senhor do palácio ouviu-a. Desceu pela encosta com uma tocha que cegou os homens do intendente, apagou a lanterna falsa do leão e tirou de volta a chama que tinham roubado à tecelã. Depois, pegou nela pelo braço para que os pés não se ferissem nas pedras do fundo e levou-a outra vez para a décima terceira varanda, junto dos irmãos, com uma coroa de lume na cabeça a que nenhum guarda podia tocar.",
+    "must_not_contain": [
+      "forja com cara de leão",
+      "tirou de volta",
+      "uma por cada degrau que tinha descido"
+    ],
+    "must_keep": [
+      "Sofia",
+      "Autades",
+      "tecelã",
+      "Tesouro"
+    ],
+    "notes": "Parábola gerada pelo Gemini: marido e candeia que surgem sem apresentação, lanterna que muda de nome, contas que não batem certo. Ler também a reescrita: o verificador só apanha parte disto."
   },
   {
     "id": "en-launch",
     "lang": "en",
     "input": "I'm thrilled to announce that shared drafts are finally here! It's not just a feature; it's a whole new way to collaborate. Comments stay anchored to the exact sentence they reference — even as the text evolves. Let that sink in.",
-    "must_not_contain": ["thrilled", "not just a feature", "let that sink in", "—"],
-    "must_keep": ["shared drafts", "comments"],
+    "must_not_contain": [
+      "thrilled",
+      "not just a feature",
+      "let that sink in",
+      "—"
+    ],
+    "must_keep": [
+      "shared drafts",
+      "sentence"
+    ],
     "notes": "§1, §2, §8 and §22 in English."
   }
 ]

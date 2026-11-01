@@ -1,5 +1,46 @@
 # Changelog
 
+## 4.5.0
+
+- Added a coherence check for stories. Every person and object must appear before it is used and keep one name, and counts must agree. `references/pt-pt.md` adds that a retelling must explain or cut what only makes sense in its source. A Gemini retelling of a myth showed all of these problems.
+- Added the test case `pt-historia-coerencia`.
+
+## 4.4.1
+
+- The instruction to read `references/pt-pt.md` for Portuguese text now comes before step 1 and is required. It used to sit in the "Other languages" section, after the steps, and a Gemini agent started writing without reading the file.
+
+## 4.4.0
+
+- Changed how the skill works. When a text needs more than small edits, it now notes the claims and facts and writes the draft from the notes, so the original's structure does not carry over. A second reading follows, from a separate session or subagent when the agent can start one, ideally on a different model, since a model sees its own habits less well.
+- The skill reads a writing sample saved as `voz.md` or `voice.md` next to `SKILL.md`, The sample can be the user's own writing or a human writer's they like. The skill takes only its voice and keeps the text's own topic, phrases, form of address, and genre. In testing, a sample written to «tu» had turned a text written with «nós» into «tu». `.gitignore` keeps that file out of the repo.
+- Cut lines that the new process makes repeated, to stay under the word limit.
+
+## 4.3.0
+
+- Hypnosis scripts and guided meditations now keep their repetition, permissive phrasing, and slow pace. `references/pt-pt.md` lists the forms to keep in Portuguese, including the conversational hypnosis patterns from the owner's own manuscript, and the tells to fix in them. Before, §7, §9, and §27 would flag these deliberate techniques.
+- Added the test case `pt-hipnose`.
+- Rewrote every example in `references/pt-pt.md` on topics that no test case uses, so a passing test means the rule worked, not that the rewrite copied an answer. `SKILL.md` and `references/pt-pt.md` now say never to copy an example's wording. `references/pt-pt.md` adds a final check for the tells that most often survive in Portuguese.
+- `references/pt-pt.md` now catches dropped articles, «que», and prepositions («mascar pastilha», «reduzir ansiedade»), which make a sentence sound like a telegram or a leaflet. Added the test case `pt-palavras-em-falta`.
+- `references/pt-pt.md` now catches colons that announce an explanation or a list, and stops telling agents to swap dashes for colons. It also catches enumerations of concepts and texts whose paragraphs form a list («Outra ideia central...», «Por fim...»). Section 6 now covers texts that explain a subject to non-specialists. Added the test case `pt-psicanalise`.
+- `references/pt-pt.md` now treats short «como X, Y ou Z» lists as catalogs, catches disciplines and institutions used as the subject of almost every sentence («a psicanálise pede»), and catches vague therapy verbs («trabalhar sentimentos», «processar», «lidar com»).
+
+## 4.2.0
+
+- Added pattern #27 and section G for abstract and compressed sentences: unclear referents and actions, abstract nouns that act like people, literary images that show nothing, and an administrative tone in stories, conversations, and client messages. 27 patterns total.
+- Added section 6 to `references/pt-pt.md` with Portuguese examples for each of these, plus generic sentences, caption-like fragments, disguised lists, jumps from an episode to a lesson, and advertising phrases.
+- Cut repeated lines from `SKILL.md` to stay under the word limit. The "Other languages" section already covers them.
+- Added the test cases `pt-parabola` and `pt-administrativo`.
+
+## 4.1.0
+
+- Portuguese text is now always written in European Portuguese. A text written entirely in Brazilian Portuguese is converted, unless the user asks to keep Brazilian Portuguese.
+
+Fixes found by running the test cases:
+
+- §4 and `references/pt-pt.md` now catch announcement openers such as "We're thrilled to announce" and «temos o prazer de anunciar». The rewrite kept them before.
+- The Brazilian-forms test now uses a text that mixes the two varieties. A new case checks that a text written entirely in Brazilian Portuguese is converted.
+- `scripts/check-eval.py` no longer treats a capital letter as a lost fact.
+
 ## 4.0.0
 
 First release as `arkanums/humanizar`, an independent version of `blader/humanizer`. The skill is now named `humanizar`, so it answers to `/humanizar`. No change to the 26 patterns.

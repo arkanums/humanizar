@@ -2,11 +2,13 @@
 
 Este ficheiro completa o `SKILL.md` quando o texto está em português. Os padrões do `SKILL.md` continuam a valer; aqui estão as formas que tomam em português, as regras que mudam e as palavras que a IA usa muito mais do que as pessoas.
 
-Escreve em português europeu, segundo o Acordo Ortográfico de 1990, salvo se o texto ou o utilizador for brasileiro. Nesse caso mantém a variante brasileira e ignora a secção 1.
+Os exemplos de antes e depois mostram o princípio. Nunca copies a redação deles para a reescrita: escreve a partir do texto que tens à frente.
+
+Escreve sempre em português europeu, segundo o Acordo Ortográfico de 1990, mesmo quando o texto original está em português do Brasil. Só mantém a variante brasileira se o utilizador o pedir; nesse caso ignora a secção 1.
 
 ## 1. Brasileirismos num texto português
 
-Os modelos aprendem sobretudo com português do Brasil. Num texto que devia ser de Portugal, as formas brasileiras são um dos sinais mais claros de IA. Corrige-as sempre que o texto se dirige a leitores portugueses.
+Os modelos aprendem sobretudo com português do Brasil. Num texto que devia ser de Portugal, as formas brasileiras são um dos sinais mais claros de IA. Corrige-as sempre, e converte para português europeu um texto que esteja todo em português do Brasil.
 
 | Brasil | Portugal |
 |---|---|
@@ -32,8 +34,9 @@ Estas regras substituem as regras inglesas do §8, §10 e §21.
 
 - **Aspas.** As aspas angulares (« ») são a norma em Portugal; as curvas (“ ”) também se aceitam. Mantém as que o escritor usa e nunca as troques por aspas retas. Aspas retas num texto português cuidado são normais em contextos técnicos e não contam como sinal.
 - **Travessão no diálogo.** Na ficção portuguesa, o travessão abre a fala das personagens. Mantém-no sempre.
-- **Travessão no meio da frase.** O português também usa o travessão para intercalar, mas a IA usa-o em quase todas as frases. Aplica o §8: troca-o por vírgulas, parênteses, dois pontos ou ponto final, exceto se a amostra do escritor o usar com frequência.
+- **Travessão no meio da frase.** O português também usa o travessão para intercalar, mas a IA usa-o em quase todas as frases. Aplica o §8: troca-o por vírgulas, parênteses ou ponto final, ou reescreve a frase, exceto se a amostra do escritor o usar com frequência. Não o troques por dois pontos.
 - **Hífen.** Segue o Acordo Ortográfico. Nunca tires o hífen dos pronomes ligados ao verbo (diz-se, deu-lhe, fá-lo-ia). A regra inglesa do §10 não se aplica.
+- **Dois pontos.** A IA usa os dois pontos para anunciar uma explicação ou uma lista («A cidade mudou muito: há mais turistas, mais trânsito...», «Surge então o problema: o motor não pega.»). A falar, ninguém faz isto. Começa outra frase, ou liga as ideias com «por exemplo», «porque» ou «ou seja». Mantém os dois pontos antes de uma citação, de uma lista que o leitor precisa de ver inteira e nas horas. Num texto em prosa, mais do que uns poucos dois pontos já é sinal.
 - **Maiúsculas nos títulos.** Em português, um título com maiúscula em cada palavra ("Estratégias Para O Crescimento") é um decalque do inglês. Usa maiúscula só na primeira palavra e nos nomes próprios.
 - **Números e moeda.** Vírgula decimal (3,5), espaço ou ponto nos milhares (12 000 ou 12.000) e o euro depois do número (10 € ou 10 euros). "€10" e "3.5" são formas inglesas.
 
@@ -44,7 +47,7 @@ São os mesmos padrões do §1 ao §5 do `SKILL.md`, na forma portuguesa. Uma oc
 - **Não é X, é Y (§1):** não se trata apenas de X, mas de Y; não é só X, é Y; mais do que X, é Y; longe de ser X, é Y; isto não significa X. Significa Y.
 - **Frase final de efeito (§2):** E isso faz toda a diferença. E isso muda tudo. É simples assim. Ponto final. Pensa nisto. Uma lição de paciência. Fica a reflexão.
 - **Falsa profundidade (§3):** no fundo, a verdade é que, o que realmente importa, no cerne da questão, a grande questão é, em última análise, X é a linguagem de Y.
-- **Introdução encenada (§4):** vamos lá, vamos mergulhar em, vamos explorar, vamos por partes, aqui fica o que precisas de saber, sejamos honestos, sinceramente?, a verdade?, spoiler:, atenção:
+- **Introdução encenada (§4):** estamos entusiasmados por anunciar, temos o prazer de anunciar, é com enorme satisfação que, vamos lá, vamos mergulhar em, vamos explorar, vamos por partes, aqui fica o que precisas de saber, sejamos honestos, sinceramente?, a verdade?, spoiler:, atenção:
 - **Discutir com ninguém (§5):** não estou a dizer que, atenção, isto não significa que, não me interpretem mal, há quem diga que... mas, seria tentador.
 
 **Antes:**
@@ -70,10 +73,10 @@ Os modelos usam estas palavras muito mais do que um português a falar ou a escr
 Troca cada uma pela palavra que uma pessoa diria, ou corta-a. Muitas vezes a frase fica melhor sem nada no lugar.
 
 **Antes:**
-> Além disso, é importante salientar que esta abordagem inovadora desempenha um papel crucial no panorama atual da saúde mental, potenciando uma jornada transformadora para cada paciente.
+> Além disso, é importante salientar que esta biblioteca desempenha um papel crucial no panorama cultural da cidade, potenciando uma jornada de descoberta para cada leitor.
 
 **Depois:**
-> Esta abordagem é nova e tem hoje um lugar importante na saúde mental. Pode mudar muito a vida de um paciente.
+> A biblioteca é importante na vida cultural da cidade, e muitos leitores descobrem lá livros que não conheciam.
 
 Não acrescentes onde, quem ou quantos se o original não o diz.
 
@@ -87,6 +90,101 @@ Não acrescentes onde, quem ou quantos se o original não o diz.
 - **Restos do chat (§22):** Ótima pergunta! Claro! Com certeza! Espero que ajude! Se quiseres, posso... Queres que...? Tens toda a razão. Fico à disposição. Diz-me se precisares de mais alguma coisa.
 - **Limites do conhecimento (§23):** com base nas informações disponíveis, até à data do meu conhecimento, não há informação pública sobre, presumivelmente.
 
-## 6. O que manter
+## 6. Texto escrito que não soa a conversa (§27)
 
-Muitas destas palavras são normais no português de Portugal quando têm sentido próprio. "Fundamental" num texto de física, "garantir" num contrato e "explorar" uma mina não são sinais. Também não são sinais o "pois", o "aliás", o "ora" e o "portanto" de quem fala assim, nem expressões regionais, nem o calão de uma época. Mantém o tratamento que o escritor escolheu (tu, você entre colegas que o usam, ou o senhor) e não o mudes sem razão.
+Muitas IAs escrevem em português frases que se percebem palavra a palavra, mas que ninguém diria. Faz esta pergunta a cada frase: «Dirias isto assim a alguém, sentado à mesa?» Se não, reescreve como o dirias. Uma pessoa diz quem fez o quê, usa verbos concretos e palavras de todos os dias, e põe uma ideia em cada frase.
+
+**Frases comprimidas e referentes vagos.** O leitor tem de parar para adivinhar «isto refere-se a quê?» ou «o que é que aconteceu?». Os sinais são substantivos no lugar de verbos (a gestão das expectativas, a tomada de decisão, a realização do processo), «isto», «esse processo», «esta dinâmica» ou «tal» sem referente claro, e frases teóricas que juntam três ideias. Diz quem fez o quê, a quem, e o que aconteceu. Parte a frase em duas.
+
+> Antes: A otimização da gestão do tempo permitiu uma melhoria da produtividade da equipa.
+> Depois: A equipa passou a organizar melhor o tempo, e agora faz mais.
+
+**Palavras pequenas que faltam.** A IA corta artigos, «que», preposições e verbos, e a frase fica a soar a telegrama ou a folheto: mascar pastilha, comprar bilhete na bilheteira, inscrição através de email, aula com início em outubro. Lê a frase em voz alta e repõe as palavras que dirias: mascar uma pastilha, comprar o bilhete na bilheteira, inscreva-se por email, as aulas começam em outubro. As expressões feitas sem artigo continuam certas (beber café, ter fome, andar de carro, pedir ajuda).
+
+> Antes: Aula com duração de uma hora. Indicada para quem procura melhorar técnica de guitarra.
+> Depois: Cada aula dura uma hora. Serve a quem quer melhorar a técnica na guitarra.
+
+**Personificação abstrata.** Uma ideia faz o que só as pessoas fazem: a saudade bateu à porta, o medo tomou conta, a memória pede tempo, a vida ensinou-lhe, o cansaço venceu. O leitor tem de traduzir. Põe a pessoa como sujeito.
+
+> Antes: A saudade bateu à porta e a tristeza tomou conta do jantar.
+> Depois: Lembrou-se do pai e esteve calado o resto do jantar.
+
+O mesmo vale para disciplinas, instituições e métodos: «o ioga convida», «a escola acredita», «a empresa quer», «o método permite». Uma vez é natural («A física ensina que...»). Quando a disciplina é o sujeito de quase todas as frases, o texto soa a folheto. Põe como sujeito quem faz de facto: o professor, o aluno, o autor, a equipa.
+
+> Antes: O ioga não promete milagres. Convida cada praticante a ouvir o próprio corpo.
+> Depois: Na aula de ioga ninguém promete milagres. O professor pede aos alunos que reparem no que sentem.
+
+**Verbos vagos de consultório.** Trabalhar (sentimentos, emoções, questões), processar, lidar com, dar espaço a, gerir emoções, integrar, ressignificar, desbloquear. O leitor fica sem saber o que acontece de facto. Diz o que a pessoa faz, ou o que muda: fala sobre isso, repara, chora, deixa de evitar. Se o original não diz o que acontece, escreve uma frase mais simples em vez de inventar.
+
+> Antes: O workshop é o que permite trabalhar essas emoções.
+> Depois: No workshop, cada pessoa conta o que sentiu e ouve o que os outros sentiram.
+
+**Imagens literárias sem nada concreto.** Um eco do que fomos, a luz suave da manhã a abraçar a cidade, as cicatrizes invisíveis da alma. Mantém uma imagem só quando mostra algo que se vê, ouve ou toca. Se o original não tem esse pormenor, escreve a ideia simples em vez de o inventar.
+
+**Saltar do episódio para o conceito.** A frase passa do que aconteceu para uma lição abstrata. Para no episódio, ou diz por palavras simples o que a pessoa pensou.
+
+> Antes: Ela chorou. Naquele momento percebi que a vulnerabilidade é uma forma de força.
+> Depois: Ela chorou, e eu achei-a mais forte por isso.
+
+**Registo de relatório numa conversa ou numa história.** Palavras de serviço e de análise onde se esperava fala: efetuar, proceder a, relativamente a, no que concerne, a nível de, face a, aquando, no sentido de, de forma a, venho por este meio, a referida, e «o mesmo» ou «a mesma» no lugar de um nome («a marcação foi alterada e a mesma...»). Numa narrativa ou numa parábola, palavras analíticas como estratégia, recursos, dinâmica, processo, gestão, perspetiva e contexto soam a relatório. São construções gramaticalmente possíveis, mas ninguém fala assim.
+
+> Antes: Perante a ausência de alternativas, o pescador optou por uma estratégia de regresso antecipado ao porto.
+> Depois: Como não tinha outra saída, o pescador voltou mais cedo para o porto.
+
+> Antes: Venho por este meio informar que a sua encomenda foi expedida no dia 3.
+> Depois: A sua encomenda saiu no dia 3.
+
+**Frases genéricas.** Servem para qualquer pessoa e qualquer texto: cada pessoa é única, todos passamos por momentos difíceis, a mudança é um processo, cada caso é um caso. Usa o caso concreto do original, ou corta a frase.
+
+**Enumerações e catálogos.** A IA enumera conceitos em vez de os explicar: «ritmo, melodia e harmonia», «no fado, nas serenatas, no jazz e no cinema», «a forma como comemos, como dormimos e como trabalhamos». Quem explica a alguém escolhe um ou dois exemplos e conta-os. Uma lista curta com «como» («como a horta, o pomar ou o jardim») continua a ser catálogo: escolhe um exemplo e diz como aparece. Desenvolve o exemplo mais claro do original, ou reparte os itens por frases com verbo. Mantém a lista quando o leitor precisa de todos os itens, como numa receita ou numa lista de passos.
+
+> Antes: A guitarra portuguesa aparece em vários contextos: no fado, nas serenatas de Coimbra, no jazz e em bandas sonoras.
+> Depois: A guitarra portuguesa ouve-se sobretudo no fado. Em Coimbra também acompanha as serenatas, e há músicos de jazz que já a usam.
+
+O mesmo acontece à escala do texto inteiro. Parágrafos que começam por «Em primeiro lugar», «Outra ideia central», «Também» e «Por fim» são uma lista numerada por palavras. Liga os parágrafos pelo que cada um explica, como se a conversa fosse avançando.
+
+**Frases-legenda e listas disfarçadas.** Frases sem verbo que parecem a legenda de uma fotografia («Manhã de outono. Café. Silêncio.», «Uma viagem ao interior de si.»), e frases que são listas com vírgulas («Há o medo, há a culpa, há a vergonha.»). Faz uma frase com verbo e liga as ideias como se faz a falar: porque, e depois, mas, então. Ver também o §2, o §6 e o §19.
+
+**Frases que soam a anúncio.** Descubra, transforme a sua vida, dê o primeiro passo, o seu bem-estar merece, permita-se, uma experiência única. Diz o que a coisa é e o que faz (§16).
+
+**Coerência numa história.** Uma narrativa gerada por IA perde o fio com facilidade, sobretudo quando reconta um mito ou uma fonte. Verifica estes quatro pontos e corrige o que falhar:
+
+- cada pessoa, objeto ou acontecimento aparece antes de ser usado (um marido, uma candeia ou uma ameaça não podem surgir só no momento em que fazem falta);
+- cada coisa mantém o mesmo nome do princípio ao fim (uma lanterna não passa a forja);
+- os números batem certo (quem desce doze degraus não chama treze vezes «uma por cada degrau»);
+- o que só faz sentido na fonte é explicado na história ou cortado, para o leitor não ter de perguntar «isto refere-se a quê?».
+
+Não acrescentes factos à história para tapar um buraco: se a solução não for óbvia, aponta o problema ao utilizador.
+
+## 7. Verificação final
+
+Antes de entregar, relê a reescrita e procura os sinais que mais sobrevivem em português. Corrige cada um que encontrares:
+
+- dois pontos a anunciar uma explicação ou uma lista;
+- três ou mais nomes ou verbos seguidos numa frase («X, Y e Z», «como amamos, o que tememos e como...»);
+- uma disciplina, instituição ou ideia como sujeito de verbos de pessoa (pede, convida, ensina, acredita);
+- verbos vagos que não dizem o que acontece (trabalhar, processar, lidar com, permitir);
+- um salto do episódio para uma lição abstrata no fim de um parágrafo;
+- artigos ou «que» em falta;
+- numa história, pessoas ou objetos que aparecem sem ter sido apresentados, que mudam de nome, ou números que não batem certo.
+
+## 8. O que manter
+
+Muitas destas palavras são normais no português de Portugal quando têm sentido próprio. "Fundamental" num texto de física, "garantir" num contrato e "explorar" uma mina não são sinais. Também não são sinais o "pois", o "aliás", o "ora" e o "portanto" de quem fala assim, nem expressões regionais, nem o calão de uma época. Mantém o tratamento que o texto usa (tu, nós, você entre colegas que o usam, ou o senhor) e não o mudes sem razão, mesmo quando a amostra de voz usa outro. Num texto técnico, jurídico ou académico, o registo formal é o certo. A secção 6 vale para conversas, histórias, textos pessoais, mensagens a clientes e textos de divulgação, ou seja, textos que explicam um assunto a quem não é especialista.
+
+**Guiões de hipnose, relaxamento e meditação guiada.** Estes textos usam de propósito a linguagem permissiva (podes, talvez, se quiseres, é possível que), a repetição, as perguntas ao ouvinte, as ligações que encadeiam a experiência (à medida que, e enquanto, quanto mais... mais), as partes da pessoa que agem sozinhas («uma parte de ti pode», «o teu corpo sabe») e o ritmo lento. Mantém tudo isso: é técnica, não sinal de IA. Também são técnica, e ficam, as formas da hipnose conversacional:
+
+| Função | Formas portuguesas |
+|---|---|
+| Acelerar a ação | agora, imediatamente, num instante, de repente, de uma vez, por completo |
+| Criar expectativa | daqui a pouco, aos poucos, ainda não, em breve, mais cedo ou mais tarde, devagar, podes começar a |
+| Pressupor | conscientemente... enquanto inconscientemente; podes continuar a; pergunto-me se já reparaste; como vais saber que; vais fazê-lo agora ou mais tarde? |
+| Dirigir a atenção | repara, nota, dá por ti a, já alguma vez, sei que estás a perguntar-te, lembra-te |
+| Imaginar | imagina, supõe, faz de conta, é como se, como seria se, o que acontece quando |
+| Suavizar | permite-te, talvez, gostavas de, podias, não tenho a certeza de como |
+| Ligar | à medida que, quando, cada vez que, assim que, ainda bem que, e, tal como |
+| Necessidade | quero que, tens de, deves, preciso de te dizer, sei que queres |
+| Negação | não precisas de, não sei se consegues, não tens de, podias, não podias?, não é preciso... até que |
+| Falsa lógica | o que significa que; se..., então; porque..., por isso; três factos seguidos de uma sugestão; até ao ponto em que; quanto mais..., mais |
+
+Num guião, a repetição destas formas, o «agora» no fim da frase e as frases longas encadeadas com «e» também são de propósito. Corrige só o resto: brasileirismos, palavras de relatório, frases de anúncio, restos do chat e imagens que não mostram nada ao ouvinte. Num texto que não é um guião, não acrescentes estas formas: mudariam a intenção do escritor.
