@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.4.1
+
+- The instruction to read `references/pt-pt.md` for Portuguese text now comes before step 1 and is required. It used to sit in the "Other languages" section, after the steps, and a Gemini agent started writing without reading the file.
+
 ## 4.4.0
 
 - Changed how the skill works. When a text needs more than small edits, it now notes the claims and facts and writes the draft from the notes, so the original's structure does not carry over. A second reading follows, from a separate session or subagent when the agent can start one, ideally on a different model, since a model sees its own habits less well.
