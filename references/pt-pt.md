@@ -147,6 +147,15 @@ O mesmo acontece à escala do texto inteiro. Parágrafos que começam por «Em p
 
 **Frases que soam a anúncio.** Descubra, transforme a sua vida, dê o primeiro passo, o seu bem-estar merece, permita-se, uma experiência única. Diz o que a coisa é e o que faz (§16).
 
+**Coerência numa história.** Uma narrativa gerada por IA perde o fio com facilidade, sobretudo quando reconta um mito ou uma fonte. Verifica estes quatro pontos e corrige o que falhar:
+
+- cada pessoa, objeto ou acontecimento aparece antes de ser usado (um marido, uma candeia ou uma ameaça não podem surgir só no momento em que fazem falta);
+- cada coisa mantém o mesmo nome do princípio ao fim (uma lanterna não passa a forja);
+- os números batem certo (quem desce doze degraus não chama treze vezes «uma por cada degrau»);
+- o que só faz sentido na fonte é explicado na história ou cortado, para o leitor não ter de perguntar «isto refere-se a quê?».
+
+Não acrescentes factos à história para tapar um buraco: se a solução não for óbvia, aponta o problema ao utilizador.
+
 ## 7. Verificação final
 
 Antes de entregar, relê a reescrita e procura os sinais que mais sobrevivem em português. Corrige cada um que encontrares:
@@ -156,7 +165,8 @@ Antes de entregar, relê a reescrita e procura os sinais que mais sobrevivem em 
 - uma disciplina, instituição ou ideia como sujeito de verbos de pessoa (pede, convida, ensina, acredita);
 - verbos vagos que não dizem o que acontece (trabalhar, processar, lidar com, permitir);
 - um salto do episódio para uma lição abstrata no fim de um parágrafo;
-- artigos ou «que» em falta.
+- artigos ou «que» em falta;
+- numa história, pessoas ou objetos que aparecem sem ter sido apresentados, que mudam de nome, ou números que não batem certo.
 
 ## 8. O que manter
 

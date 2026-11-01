@@ -203,6 +203,23 @@
     "notes": "Texto de divulgação gerado por IA: catálogos, dois pontos, lista de lições à escala do texto e frases comprimidas. Também: disciplina como sujeito de quase todas as frases e verbos vagos de consultório."
   },
   {
+    "id": "pt-historia-coerencia",
+    "lang": "pt-PT",
+    "input": "Na décima terceira varanda de um palácio construído na encosta de um monte, morava uma tecelã chamada Sofia, junto dos seus vinte e três irmãos. Do sítio onde trabalhava, mal erguia os olhos do tear, via ao longe o clarão que saía por trás das cortinas da sala do Tesouro, no ponto mais alto da montanha. Passou tanto tempo a admirar aquela claridade que largou os fios e o ofício da casa, e já só cantava para o alto, com vontade de subir até lá.\n\nOs guardas dos doze pátios de baixo e o intendente da muralha, um homem soberbo chamado Autades, ganharam-lhe ódio por ela querer passar acima deles e ter deixado o trabalho que faziam todos. Para a enganar, o intendente acendeu um braseiro dentro de uma lanterna com feitio de cabeça de leão e mandou os seus homens pousá-la lá no fundo do barranco escuro, no meio do lodo, para ver se ela olhava para baixo.\n\nUm dia, Sofia espreitou pela borda da varanda e viu aquele clarão lá em baixo. Como não sabia da armadilha do intendente, julgou que era a mesma luz do Tesouro que tinha descido ao vale. Pensou que, se fosse lá buscá-la sozinha, sem dizer nada ao marido, podia juntar lume suficiente para abrir caminho até ao cimo do monte.\n\nDesceu os doze patamares da encosta sem olhar às ameaças dos guardas e meteu-se pelo barranco dentro para agarrar a lanterna. Mal lá chegou, os homens do intendente cercaram-na na lama. O fogo daquela forja com cara de leão queimou-lhe as mãos, apagou a candeia que ela trazia ao peito e deixou-a sem forças no escuro, rodeada de vultos que pareciam serpentes e feras.\n\nQuando percebeu o engano e viu que não conseguia subir a escarpa sozinha, Sofia não tentou lutar com os guardas. Lembrou-se do clarão verdadeiro que tinha visto desde o início lá no alto e pôs-se a chamar por ele, treze vezes seguidas, uma por cada degrau que tinha descido. Os guardas das varandas riam-se dela, convencidos de que ninguém a ouvia no fundo da cova.\n\nO Senhor do palácio ouviu-a. Desceu pela encosta com uma tocha que cegou os homens do intendente, apagou a lanterna falsa do leão e tirou de volta a chama que tinham roubado à tecelã. Depois, pegou nela pelo braço para que os pés não se ferissem nas pedras do fundo e levou-a outra vez para a décima terceira varanda, junto dos irmãos, com uma coroa de lume na cabeça a que nenhum guarda podia tocar.",
+    "must_not_contain": [
+      "forja com cara de leão",
+      "tirou de volta",
+      "uma por cada degrau que tinha descido"
+    ],
+    "must_keep": [
+      "Sofia",
+      "Autades",
+      "tecelã",
+      "Tesouro"
+    ],
+    "notes": "Parábola gerada pelo Gemini: marido e candeia que surgem sem apresentação, lanterna que muda de nome, contas que não batem certo. Ler também a reescrita: o verificador só apanha parte disto."
+  },
+  {
     "id": "en-launch",
     "lang": "en",
     "input": "I'm thrilled to announce that shared drafts are finally here! It's not just a feature; it's a whole new way to collaborate. Comments stay anchored to the exact sentence they reference — even as the text evolves. Let that sink in.",

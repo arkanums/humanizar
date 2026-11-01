@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.5.0
+
+- Added a coherence check for stories. Every person and object must appear before it is used and keep one name, and counts must agree. `references/pt-pt.md` adds that a retelling must explain or cut what only makes sense in its source. A Gemini retelling of a myth showed all of these problems.
+- Added the test case `pt-historia-coerencia`.
+
 ## 4.4.1
 
 - The instruction to read `references/pt-pt.md` for Portuguese text now comes before step 1 and is required. It used to sit in the "Other languages" section, after the steps, and a Gemini agent started writing without reading the file.

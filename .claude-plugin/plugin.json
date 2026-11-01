@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "humanizar",
   "description": "Rewrite AI-sounding text so it reads like the writer without changing what it says.",
-  "version": "4.4.1",
+  "version": "4.5.0",
   "author": {
     "name": "arkanums",
     "url": "https://github.com/arkanums"
