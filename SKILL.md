@@ -8,7 +8,7 @@ description: |
   bold labels, or filler. Based on Wikipedia's "Signs of AI writing."
 license: MIT
 metadata:
-  version: "4.5.0"
+  version: "4.5.1"
 ---
 
 # Humanizar: remove AI writing patterns

@@ -220,6 +220,22 @@
     "notes": "Parábola gerada pelo Gemini: marido e candeia que surgem sem apresentação, lanterna que muda de nome, contas que não batem certo. Ler também a reescrita: o verificador só apanha parte disto."
   },
   {
+    "id": "pt-recontagem",
+    "lang": "pt-PT",
+    "input": "No décimo terceiro andar de uma torre antiga vivia uma rapariga chamada Sofia, junto do seu companheiro e de outros vinte e dois irmãos. Nos doze andares debaixo mandavam guardas vaidosos. O mais soberbo deles chamava-se Authades e não tolerava que ninguém olhasse para além do seu domínio.\n\nCerto dia, Sofia reparou num clarão que atravessava a cortina no topo da torre, vindo de um lugar mais alto a que chamavam o Tesouro da Luz. Ficou tão encantada com aquele brilho que deixou de cumprir as tarefas do seu andar e passava as horas a cantar para o alto, com vontade de lá subir. Os guardas dos outros pisos perceberam e ganharam-lhe ódio por ela querer ir para um sítio onde eles não mandavam.\n\nPara a tramar, Authades pôs uma armadilha no fosso escuro por baixo da torre. Mandou para lá os seus servos e acendeu no fundo um fogo forte com a forma de um leão, para parecer o clarão do topo. Depois fez com que Sofia espreitasse pela borda.\n\nQuando Sofia olhou para baixo e viu aquele brilho no fundo do fosso, julgou que era a mesma luz que tinha visto lá em cima. Sem dizer nada ao companheiro, pensou que podia descer sozinha, apanhar aquela chama e usá-la para subir até ao topo da torre. Saiu então do décimo terceiro andar, atravessou os doze pisos debaixo sob a fúria dos guardas e desceu até ao fosso.\n\nMal lá chegou, os servos de Authades cercaram-na. O fogo com cara de leão saltou sobre ela e, em vez de a iluminar, começou a comer a luz que Sofia trazia consigo. Cada vez mais fraca e pesada no escuro, Sofia percebeu o engano. Não tinha força para subir os doze andares de volta, e lá de cima os guardas riam-se por verem que ninguém a vinha buscar.\n\nNo meio da escuridão, Sofia lembrou-se da luz verdadeira que tinha visto no princípio e começou a chamar por ela. Pediu perdão por ter deixado a sua casa e cantou treze vezes no escuro, uma pelo seu próprio andar e outra por cada um dos doze pisos que tinha descido. De cada vez que as sombras do fosso e o leão voltavam para lhe roubar o pouco brilho que lhe restava, ela tornava a cantar e a pedir socorro à luz do alto.\n\nAo sétimo pedido, o Senhor daquela luz teve pena dela e tirou-a do sítio mais apertado do fosso para um lugar um pouco mais largo. Sofia ainda não sabia quem a tinha ajudado, mas continuou a chamar. Quando completou o décimo terceiro pedido, o Senhor da luz desceu ao fosso com dois mensageiros e envolveu-a num clarão dez mil vezes mais forte do que o falso fogo do leão. Pôs-lhe uma coroa de chama na cabeça para que as sombras não lhe pudessem tocar, tirou aos servos de Authades toda a luz que lhe tinham roubado e devolveu-lha.\n\nNa subida, as criaturas de Authades ainda tentaram atacá-la com formas de serpente, de dragão e de um monstro de sete cabeças, ajudadas por outro guarda tirano chamado Adamas. Mas os dois mensageiros levaram Sofia pelas mãos para que os pés dela não tocassem no fundo escuro. Ela passou por cima das feras, que caíram sem força para um lado e para o outro, e o Senhor da luz regressou com ela ao décimo terceiro andar, onde os seus irmãos a receberam de novo em casa.",
+    "must_not_contain": [
+      "Adamas",
+      "sete cabeças"
+    ],
+    "must_keep": [
+      "Sofia",
+      "Authades",
+      "companheiro",
+      "Tesouro da Luz"
+    ],
+    "notes": "Recontagem gerada pelo Gemini com a fonte completa: no fim acumula episódios, números e uma personagem nova, e o conto vira resumo."
+  },
+  {
     "id": "en-launch",
     "lang": "en",
     "input": "I'm thrilled to announce that shared drafts are finally here! It's not just a feature; it's a whole new way to collaborate. Comments stay anchored to the exact sentence they reference — even as the text evolves. Let that sink in.",
