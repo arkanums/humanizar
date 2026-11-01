@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.5.1
+
+- In a retelling, `references/pt-pt.md` now asks the agent to choose the moments the story needs instead of using every detail of the source. A Gemini retelling of a myth turned into a summary near the end, as it listed episodes, numbers, and new characters. Added the test case `pt-recontagem`.
+
 ## 4.5.0
 
 - Added a coherence check for stories. Every person and object must appear before it is used and keep one name, and counts must agree. `references/pt-pt.md` adds that a retelling must explain or cut what only makes sense in its source. A Gemini retelling of a myth showed all of these problems.

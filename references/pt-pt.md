@@ -154,6 +154,8 @@ O mesmo acontece à escala do texto inteiro. Parágrafos que começam por «Em p
 - os números batem certo (quem desce doze degraus não chama treze vezes «uma por cada degrau»);
 - o que só faz sentido na fonte é explicado na história ou cortado, para o leitor não ter de perguntar «isto refere-se a quê?».
 
+Numa recontagem, escolhe os momentos de que a história precisa. Não é preciso usar todos os pormenores da fonte: uma fila de episódios, números e personagens novas no fim faz o conto virar resumo. É o mesmo princípio dos catálogos, aplicado aos acontecimentos.
+
 Não acrescentes factos à história para tapar um buraco: se a solução não for óbvia, aponta o problema ao utilizador.
 
 ## 7. Verificação final
@@ -166,7 +168,8 @@ Antes de entregar, relê a reescrita e procura os sinais que mais sobrevivem em 
 - verbos vagos que não dizem o que acontece (trabalhar, processar, lidar com, permitir);
 - um salto do episódio para uma lição abstrata no fim de um parágrafo;
 - artigos ou «que» em falta;
-- numa história, pessoas ou objetos que aparecem sem ter sido apresentados, que mudam de nome, ou números que não batem certo.
+- numa história, pessoas ou objetos que aparecem sem ter sido apresentados, que mudam de nome, ou números que não batem certo;
+- numa recontagem, pormenores da fonte em fila, que fazem o conto virar resumo.
 
 ## 8. O que manter
 
